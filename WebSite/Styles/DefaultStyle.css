@@ -1,0 +1,317 @@
+﻿
+body
+{
+    background-color: #e7e4e3;
+    text-align: center;
+    height: 740px;
+}
+
+form,.loginpage
+{
+    height: 740px;
+}
+
+#loginform 
+{
+    /*background-image: url('../login.jpg');*/
+    background-color:#e8e4e3;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.loginpage
+{
+    background-color:#195b7b;
+    margin: 0 auto;
+    width: 1396px;
+}
+.textstylebase ,.mastertitle ,.logintitle,.loginbutton,.account-password, .account-password1,.account-password-lable ,.account-password-lable1 ,.loginbutton1,.newscontent
+{
+        font-family: "微软雅黑",Verdana,'Times New Roman';
+        font-style: normal;
+}
+    .loginpage .login
+    {
+        /*width: 50%;
+        position:absolute;
+        top: 100px;
+        left: 130px;*/
+        background-color:#77776f;
+        margin-top:10px;
+    }
+
+    .loginpage .news 
+    {
+        /*background-color:white;*/
+        width:100%;
+        height:180px;
+    }
+.defualtpage
+{
+    margin: 0 auto;
+    background-color: #f3f1f0;
+    width: 1396px;
+    height: 740px;
+    text-align: center;
+}
+.account-password-lable,.account-password-lable1
+{
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    color: #e8e4e3;
+    Width: 180px;
+    height: 20px;
+}
+.account-password-lable1 
+{
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #e8e4e3;
+    Width: 300px;
+    height: 40px;
+}
+.account-password, .account-password1
+{
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+    Width: 120px;
+    height: 20px;
+    border: 0px solid #195b7b;
+}
+
+.account-password1 
+{
+   Width: 300px;
+   height: 40px;
+   margin: 10px 0px 10px 10px; /*外围边框间距上右下左*/
+   font-size: 30px;
+   color: #195b7b;
+}
+.littertitle 
+{
+    margin-top: 0px;
+    font-family: "微软雅黑",Verdana,'Times New Roman';
+    Font-Size: 30pt;
+    font-weight:bolder;
+    color: #d27440;
+    text-align:center;
+    width:70px;
+}
+.mastertitle 
+{
+    Font-Size: 35pt;
+    font-style:italic;
+    letter-spacing:-2px;/*字母间距*/
+    line-height:70px;
+    font-weight:500;
+    white-space: nowrap; /*文字不转弯*/           
+    color: #da684d;
+    margin-left:5px;
+    margin-right:20px;
+}
+
+.logintitle
+{
+    Font-Size: 30pt;
+    font-style:italic;
+    letter-spacing:-2px;/*字母间距*/
+    line-height:50px;
+    font-weight:100;
+    white-space: nowrap; /*文字不转弯*/           
+    color: white;
+    margin-left:5px;
+    margin-right:20px;
+}
+
+.loginbutton,loginbutton1
+{
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #de5a58;
+    color:#fcceaf;
+    width: 50px;
+    height: 22px;
+    /*margin-top: 15px;*/
+}
+
+.loginbutton1
+{
+   Width: 300px;
+   height: 40px;
+   margin: 10px 0px 10px 10px; /*外围边框间距上右下左*/
+   font-size: 27px;
+   background-color:#268cbd;
+   color:white;
+}
+footer
+{
+    margin-top: 2px;
+    font-family: "微软雅黑",Verdana,'Times New Roman';
+    font-size: 14px;
+    font-style: normal;
+    color: #ffffff;
+    /*line-height: 13px;/*行距
+    text-align:justify;*/
+    background-color:#de5a58;
+}
+
+    footer .logo
+    {
+        background-color: transparent;
+    }
+    footer .companylogo 
+        {
+        background-color: transparent;
+        width: 25px;
+        margin: 0px 0px 0px 10px; /*外围边框间距上右下左*/
+        }
+.masterhead
+{
+    width: 100%;
+    height: 70px;
+    background-color: #268cbd;
+    text-align:center;
+}
+
+.masterbody
+{
+    width: 100%;
+    text-align: center;
+    vertical-align: top; 
+
+}
+
+.masterbodylogo
+{
+    /*width:50%,0%;*/
+    width: 100%;
+    vertical-align: top; 
+    text-align: center;
+}
+
+.systemlogo
+{
+    font-size: 100px;
+    Color: #b5e5ee;
+    font-family: "黑体";
+    width: 243px;
+    height: 168px;
+    background-image: url('../Pic/logobg.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-align: center;
+}
+
+    .systemlogo .logofont
+    {
+        margin-bottom: 50px;
+        text-align: center;
+        width: 238px;
+    }
+
+.manuposition /*菜单位置调整*/
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    width:100%;/*保证菜单横向位置足够不会转弯*/
+    padding: 0px;
+    border-collapse: collapse; /*修改table的默认间隙为0*/
+    /*margin-bottom: 25px;
+    margin-left: 40px;*/
+    text-align: left;
+}
+.newscontent 
+{
+    font-size:15px;
+    color:black;
+    text-align:justify;
+    font-style:normal;
+}
+    .manuposition td
+    {
+        margin: 0px;
+        text-align: left;
+    }
+
+    .manuposition a
+    {
+        text-decoration: none;
+        color:white;
+    }
+
+        .manuposition a href
+        {
+            color: #de5a58;
+            text-decoration: none;
+        }
+
+    .manuposition .loginuser
+    {
+        /*font-weight: 600;*/
+        font-style: normal;
+        Font-Size: 12pt;
+        font-family: "微软雅黑",Verdana,'Times New Roman';
+        margin-left: 50px;/*名字和菜单的间距*/
+        margin-right:10px;
+    }
+
+        .manuposition .loginuser #name
+        {
+            width: 150px;
+            text-align: right;
+        }
+
+    .manuposition .logout/*注销和名字的间距*/
+    {
+        margin-left: 20px;
+    }
+
+    .manuposition .menulist
+    {
+        font-weight: bold;
+        font-style: normal;
+        Font-Size: 11pt;
+        font-family: "微软雅黑",Verdana,'Times New Roman';
+        /*padding: 4px 20px 4px 8px;*/ /*一个菜单整体的外围空间*/
+    }
+
+        .manuposition .menulist ul
+        {
+            list-style: none; /*菜单引导三角按钮或圆点标识*/
+            margin: 0px 0px 0px 0px; /*外围边框间距上右下左*/
+            padding: 0px 0px 0px 0px; /*外围边框上右下左*/
+        }
+
+            .manuposition .menulist ul li a, .manuposition .menulist ul li a:visited /*静态子菜单设置*/
+            {
+                background-color: #37c8e4;
+                border: 5px transparent solid;
+                color: #DFFAFF;
+                display: block;
+                line-height: 1.0em;
+                margin: 5px 10px 5px 10px; /*外围间距上右下左,影响左边菜单，上边菜单单行不影响上下关系*/
+                padding: 0px 10px 0px 10px; /*外围边框上右下左*/
+                text-decoration: none;
+                white-space: nowrap; /*文字不转弯*/
+            }
+
+                .manuposition .menulist ul li a:hover /*鼠标悬停时子菜单状态*/
+                {
+                    background-color: #82f5f9;
+                    color: #ffa72b;
+                    text-decoration: none;
+                }
+
+                .manuposition .menulist ul li a:active /*点击时代子菜单状态*/
+                {
+                    background-color: #82f5f9;
+                    color: #ffa72b;
+                    text-decoration: none;
+                }

@@ -1,0 +1,102 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#map {
+    width:100%;
+    height:90%;
+    border: #ccc solid 1px;
+}
+
+.menu {
+    background: #F9F9F9;
+    float: left;
+    border-bottom: 1px solid #2C81FF;
+    width: 100%;
+}
+
+    .menu .item {
+        font-size: 14px;
+        float: left;
+        width: 33%;
+        height: 45px;
+        text-align: center;
+        padding: 12px 2px;
+    }
+
+    .menu .spilt_line {
+        float: left;
+        border-right: 1px solid #CCC;
+        width: 1px;
+        height: 25px;
+        margin: 10px 0px;
+    }
+
+    .menu .selected {
+        border-bottom: 4px solid #2C81FF;
+        /*font-color: #2C81FF;*/
+    }
+
+#sub_menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    border-right: 1px solid #eee;
+    z-index: 9999;
+    background: #F9F9F9;
+}
+
+    #sub_menu div {
+        padding: 12px 20px;
+        border-bottom: 1px solid #eee;
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+#loading_ico {
+    width: 128px;
+    height: 128px;
+    position: fixed;
+    z-index: 9999;
+}
+
+#cover_div{
+	width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.1;
+    z-index:9999;
+}
+
+#bottom_tool {
+    border-top: 1px solid #ebebeb;
+    float: left;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 46px;
+}
+
+    #bottom_tool .search {
+        float: left;
+        padding: 6px;
+        height: 46px;
+        width: 100%;
+        background: #F9F9F9;
+        width: 75%;
+    }
+
+    #bottom_tool .btn_ico {
+        float: left;
+        background: #2C81FF;
+        height: 46px;
+        width: 25%;
+    }

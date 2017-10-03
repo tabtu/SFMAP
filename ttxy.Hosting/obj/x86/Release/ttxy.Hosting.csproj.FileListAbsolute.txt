@@ -1,0 +1,254 @@
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.Model.dll
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.IDAL.dll
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.DALFactory.dll
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.IDAL.pdb
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\bin\Release\ttxy.DALFactory.pdb
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+E:\workspace\asp.net\InfoStream\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.Model.dll
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.IDAL.dll
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.DALFactory.dll
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.IDAL.pdb
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\bin\Release\ttxy.DALFactory.pdb
+E:\workspace\asp.net\ttxyStream\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.dll
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v1\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v1\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v1\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v1\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v2\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v2\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v2\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v2\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v3\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v3\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v3\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v3\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v4\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v4\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v4\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v4\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v5\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v5\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v5\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+D:\lll\SecurityGate_v5\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.dll
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+E:\workspace\asp.net\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.Model.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.BLL.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\bin\Release\ttxy.DAL.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\Users\jsj\Desktop\SecurityGate\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+E:\workspace\asp.net\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+E:\workspace\asp.net\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+E:\workspace\asp.net\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+E:\workspace\asp.net\LanMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+E:\workspace\asp.net\LanMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+E:\workspace\asp.net\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+E:\workspace\asp.net\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+E:\workspace\asp.net\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\Users\ann\Desktop\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\Users\ann\Desktop\LanMap\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\Users\ann\Desktop\LanMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\Users\ann\Desktop\LanMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\ttxy\workspace\net\ThMap\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\ttxy\workspace\net\ThMap\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\ttxy\workspace\net\ThMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb

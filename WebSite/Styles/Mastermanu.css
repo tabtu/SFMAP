@@ -1,0 +1,260 @@
+﻿.logotable /*主菜单页面*/ {
+    /*width: 1296px;*//*漂亮模式菜单*/
+    /*margin-top: 100px;*//*漂亮模式菜单*/
+    width: 800px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left:50px;/*丑标题*/
+}
+
+.seclogotable {
+    width: 600px;
+}
+
+.contenttable,.contentimage /*表格，图片默认格式*/ {
+    margin: 0px 0% 0px 0%;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+
+    .contenttable #contenttitle {
+        margin: 0px 0px 2px 0px; /*外围边框上右下左*/
+        height: 50px;
+        width: 98%;
+    }
+
+        .contenttable #contenttitle p {
+            width: 100%;
+            letter-spacing: 7px;
+            text-align: center;
+            color: #bcbbbb;
+            font-family: "微软雅黑","黑体",'Times New Roman';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            padding: 10px;
+        }
+
+.leftlogotable /*子菜单界面左边logo部分*/ {
+    margin-top: 100px;
+    text-align: center;
+}
+
+    .leftlogotable .Button_myorder2, .Button_otherorder2, .Button_neworder2, .Button_dclorder2 {
+        width: 120px;
+        height: 76px;
+        margin: 20px 40px 0px 40px; /*外围边框上右下左*/
+        background-color: #37c8e4;
+    }
+
+    .leftlogotable .Button_myorder2 {
+        background-image: url('../Pic/lwddd.png');
+    }
+
+    .leftlogotable .Button_otherorder2 {
+        background-image: url('../Pic/lqtdd.png');
+    }
+
+    .leftlogotable .Button_neworder2 {
+        background-image: url('../pic/lxzdd.png');
+    }
+
+    .leftlogotable .Button_dclorder2 {
+        background-image: url('../pic/ldddd.png');
+    }
+
+.Button_myorder, .Button_otherorder, .Button_neworder, .Button_dclorder, .Button_systemlist, .Button_bulidsys, .Button_bulidnode /*主菜单logo部分*/ {
+    width: 167px;
+    Height: 148px;
+    font-family: "微软雅黑","黑体",'Times New Roman';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin: 40px; /*外围边框上右下左*/
+    padding-top: 100px;
+}
+
+.Button_myorder {
+    background-image: url('../Pic/wddd.png');
+}
+
+.Button_otherorder {
+    background-image: url('../Pic/qtdd.png');
+}
+
+.Button_neworder {
+    background-image: url('../Pic/xzdd.png');
+}
+
+.Button_dclorder {
+    background-image: url('../Pic/dddd.png');
+}
+
+.Button_systemlist {
+    background-image: url('../Pic/zxtqd.png');
+}
+
+.Button_bulidsys {
+    background-image: url('../Pic/xjzxt.png');
+}
+
+.Button_bulidnode {
+    background-image: url('../Pic/xzjd.png');
+}
+
+/*list表单部分*/
+.listtitle td, .listcontent td /*list表格设置*/ {
+    font-family: "微软雅黑","黑体",'Times New Roman';
+    font-size: 15px;
+    font-style: normal;
+    margin: 0px;
+    text-align: center;
+}
+
+.listtitle td {
+    /*width: 10%;*/
+    white-space: nowrap; /*文字不转弯*/
+    font-weight: 700;
+    color: white;
+    background-color: #0099cc;
+    border: 1px solid white;
+    padding: 0px 30px 0px 30px;
+}
+
+.listcontent td {
+    color: white;
+    /*background-color: white;*/
+   
+}
+
+/*内容部分*/
+.listtitle2 td, .listcontent2 td /*list表格设置*/ {
+    font-family: "微软雅黑","黑体",'Times New Roman';
+    font-style: normal;
+    margin: 0px;
+    white-space: nowrap; /*文字不转弯*/
+    border-collapse: separate;
+}
+
+.listtitle2 td {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: #777770;
+}
+
+.listcontent2 td {
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    background-color: #268cbd;
+}
+
+    .listcontent2 td .textbox, .textbox1 ,.listcontent2 td .label {
+        font-family: "微软雅黑",Verdana,'Times New Roman';
+        font-size: 15px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .listcontent2 td .textbox,.textbox1  {
+        background-color: white;
+        color: #939393;
+        border: 1px solid #8ccbde;
+    }
+
+.textbox1 
+{
+    border-style:solid;
+    width:100%;
+}
+    .listcontent2 td .label, labeltitle {
+        width: 50%,50%;
+        border: 0px solid #8ccbde;
+        /* background-color:#e9f6f8;*/
+        color: #939393;
+    }
+
+        .listcontent2 td .labeltitle {
+            color: #1ea0b9;
+            background-color: #d1e9ed;
+    }
+.panellist {
+    height: 150px;
+    width: 100%;
+}
+
+.submitbutton, .submitbutton1,.submitbutton2
+{
+    font-family: "微软雅黑",Verdana,'Times New Roman';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #f1966e;
+    color: white;
+    margin-top: 15px;
+}
+.submitbutton1 
+{
+        background-color: #f1966e;
+        font-size: 15px;
+}
+
+.submitbutton2
+{
+    width:100%;
+    font:bold;
+    font-size:17px;
+    margin-top:-1px;
+    border-style:none;
+}
+p {
+    margin: 1px 0px 1px 0px; /*外围边框上右下左*/
+}
+
+#spantitle /*空白页面字体*/
+{
+    letter-spacing: 7px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "微软雅黑","黑体",'Times New Roman';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+}
+#spantitle2 /*因为不用logo，改成文字标题，(#‵′)凸*/
+{
+    letter-spacing: 7px;
+    text-align:left;
+    color:white;
+    font-family: "微软雅黑","黑体",'Times New Roman';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.div 
+{
+    width:100%;
+    text-align:center;
+}
+/*.lable,.textbox 
+{
+    font-family: "微软雅黑",Verdana,'Times New Roman';
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    color: #1ea0b9;
+    Width: 180px;
+    height: 20px;
+}
+
+.textbox 
+{
+    border: 1px solid #c0ebf1;
+}*/

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ttxy.DAL.DEvent">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEQAAQAQAAIAAAAAAAAAAAAAAAACAABAAAAAA=</HashCode>
+      <FileName>DEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DMember">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEQAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>DMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DEmployee">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEQAAQAQAAIAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>DEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DMembers">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEQAgYAQAAIAAAAAAABCAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DMembers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DEvents">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAEQAAYAQAAIQEAAAAABCAAAAAQAAAAAAACAAA=</HashCode>
+      <FileName>DEvents.cs</FileName>
+      <NewMemberFileName>DEmployees.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DExtendguy">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAEQAAQAAAAIAEAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DExtendguy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DEventtype">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAEQAAQAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DEventtype.cs</FileName>
+      <NewMemberFileName>DGoods.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DOrgan">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEQQAQAQAAKAAAAAAAAAAAAAAAACAAAAACAAA=</HashCode>
+      <FileName>DOrgan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DGoods">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAEQAAQAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DGoods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DReback">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAEQAAQAAAAKAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DReback.cs</FileName>
+      <NewMemberFileName>DOrgan.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DDiscription">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEQAAQAAAAIAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DDiscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DEmployees">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAEQAAYAQAAIQEAAAAABCAAAAAQAAAAAAACAAA=</HashCode>
+      <FileName>DEmployees.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ttxy.DAL.DLog">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAQAAAACAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

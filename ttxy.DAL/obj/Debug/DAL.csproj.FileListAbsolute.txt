@@ -1,0 +1,9 @@
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\bin\Debug\DAL.dll
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\bin\Debug\DAL.pdb
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\obj\Debug\DAL.dll
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\obj\Debug\DAL.pdb
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\bin\Debug\IDAL.dll
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\bin\Debug\Linq.dll
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\bin\Debug\IDAL.pdb
+D:\WorkSpace\C#.net\DES_Security_Code\DAL\bin\Debug\Linq.pdb

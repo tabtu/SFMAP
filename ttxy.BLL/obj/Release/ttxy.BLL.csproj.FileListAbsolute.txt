@@ -1,0 +1,218 @@
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Users\alex_wu\Desktop\C#\SecurityGate\SecurityGate\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.dll
+D:\lll\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v1\ttxy.BLL\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v1\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v1\ttxy.BLL\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v1\ttxy.BLL\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v1\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v1\ttxy.BLL\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v1\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v1\ttxy.BLL\obj\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v1\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v2\ttxy.BLL\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v2\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v2\ttxy.BLL\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v2\ttxy.BLL\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v2\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v2\ttxy.BLL\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v2\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v2\ttxy.BLL\obj\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v2\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v3\ttxy.BLL\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v3\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v3\ttxy.BLL\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v3\ttxy.BLL\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v3\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v3\ttxy.BLL\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v3\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v3\ttxy.BLL\obj\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v3\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v4\ttxy.BLL\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v4\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v4\ttxy.BLL\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v4\ttxy.BLL\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v4\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v4\ttxy.BLL\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v4\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v4\ttxy.BLL\obj\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v4\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+D:\lll\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.DAL.dll
+D:\lll\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.Model.dll
+D:\lll\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+D:\lll\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.Model.pdb
+D:\lll\SecurityGate_v5\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+D:\lll\SecurityGate_v5\ttxy.BLL\obj\Release\ttxy.BLL.dll
+D:\lll\SecurityGate_v5\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate_v5\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.dll
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.dll
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.dll
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.dll
+E:\workspace\asp.net\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+E:\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+E:\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+E:\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+E:\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+E:\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+E:\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+E:\workspace\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+E:\workspace\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+E:\workspace\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\Users\ann\Desktop\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+E:\workspace\asp.net\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+E:\workspace\asp.net\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+E:\workspace\asp.net\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+E:\workspace\asp.net\LanMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+E:\workspace\asp.net\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+E:\workspace\asp.net\LanMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+E:\workspace\asp.net\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+E:\workspace\asp.net\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+E:\workspace\asp.net\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+E:\WorkSpace\LanMap\ttxy.BLL\bin\Release\ttxy.Security.dll
+E:\WorkSpace\LanMap\ttxy.BLL\bin\Release\ttxy.Security.pdb
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.Security.dll
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\bin\Release\ttxy.Security.pdb
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+H:\Users\ttxy\Desktop\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\ttxy\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\ttxy\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\ttxy\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\ttxy\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\ttxy\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.Security.dll
+C:\ttxy\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\ttxy\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\ttxy\workspace\LanMap\ttxy.BLL\bin\Release\ttxy.Security.pdb
+C:\ttxy\workspace\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\ttxy\workspace\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\bin\Release\ttxy.Security.dll
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\bin\Release\ttxy.Security.pdb
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+H:\Users\ttxy\Desktop\LanMap_20160306\LanMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\ttxy.BLL.dll
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\ttxy.BLL.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\ttxy.DAL.dll
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\ttxy.Model.dll
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\ttxy.Security.dll
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\MySql.Data.dll
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\ttxy.DAL.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\ttxy.Model.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Release\ttxy.Security.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\obj\Release\ttxy.BLL.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\obj\Release\ttxy.BLL.dll
+C:\ttxy\workspace\net\ThMap\ttxy.BLL\obj\Release\ttxy.BLL.pdb

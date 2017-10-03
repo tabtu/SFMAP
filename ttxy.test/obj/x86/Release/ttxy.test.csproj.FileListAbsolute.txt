@@ -1,0 +1,105 @@
+E:\workspace\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.test.exe
+E:\workspace\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.test.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.dll
+E:\workspace\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.Model.dll
+E:\workspace\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.Model.pdb
+E:\workspace\asp.net\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.csprojResolveAssemblyReference.cache
+E:\workspace\asp.net\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.exe
+E:\workspace\asp.net\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.exe
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.test.exe
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.test.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\ttSecurityGate\SecurityGate\ttxy.test\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\bin\Release\ttxy.test.exe
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\bin\Release\ttxy.test.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.exe
+C:\Documents and Settings\Administrator\桌面\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.test.exe
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.test.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.Model.dll
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\bin\Release\ttxy.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.exe
+C:\Documents and Settings\Administrator\桌面\SecurityGate\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.exe
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.test.exe
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.test.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.Model.dll
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\bin\Release\ttxy.Model.pdb
+F:\Could\BaiduCloud\Engerineer\asp.net\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.csprojResolveAssemblyReference.cache
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\bin\Release\ttxy.test.exe
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\bin\Release\ttxy.test.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\bin\Release\ttxy.Model.dll
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\bin\Release\ttxy.DAL.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\bin\Release\ttxy.Model.pdb
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.csprojResolveAssemblyReference.cache
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.exe
+C:\Users\jsj\Desktop\SecurityGate\ttxy.test\obj\x86\Release\ttxy.test.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\bin\Release\ttxy.test.exe
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\bin\Release\ttxy.test.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\bin\Release\ttxy.DAL.dll
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\bin\Release\ttxy.Model.dll
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\bin\Release\ttxy.DAL.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\bin\Release\ttxy.Model.pdb
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\obj\x86\Release\ttxy.test.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\obj\x86\Release\ttxy.test.exe
+C:\Users\ann\Desktop\LanMap1\LanMap\ttxy.test\obj\x86\Release\ttxy.test.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\bin\Release\ttxy.test.exe
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\bin\Release\ttxy.test.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\bin\Release\ttxy.DAL.dll
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\bin\Release\ttxy.Model.dll
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\bin\Release\ttxy.DAL.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\bin\Release\ttxy.Model.pdb
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\obj\x86\Release\ttxy.test.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\obj\x86\Release\ttxy.test.exe
+C:\Users\ann\Desktop\LanMap\LanMap\ttxy.test\obj\x86\Release\ttxy.test.pdb
+E:\workspace\asp.net\LanMap\ttxy.test\bin\Release\ttxy.test.exe
+E:\workspace\asp.net\LanMap\ttxy.test\bin\Release\ttxy.test.pdb
+E:\workspace\asp.net\LanMap\ttxy.test\bin\Release\ttxy.DAL.dll
+E:\workspace\asp.net\LanMap\ttxy.test\bin\Release\ttxy.Model.dll
+E:\workspace\asp.net\LanMap\ttxy.test\bin\Release\ttxy.DAL.pdb
+E:\workspace\asp.net\LanMap\ttxy.test\bin\Release\ttxy.Model.pdb
+E:\workspace\asp.net\LanMap\ttxy.test\obj\x86\Release\ttxy.test.csprojResolveAssemblyReference.cache
+E:\workspace\asp.net\LanMap\ttxy.test\obj\x86\Release\ttxy.test.exe
+E:\workspace\asp.net\LanMap\ttxy.test\obj\x86\Release\ttxy.test.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.test\bin\Release\ttxy.test.exe
+C:\Users\ann\Desktop\LanMap\ttxy.test\bin\Release\ttxy.test.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.test\bin\Release\ttxy.DAL.dll
+C:\Users\ann\Desktop\LanMap\ttxy.test\bin\Release\ttxy.Model.dll
+C:\Users\ann\Desktop\LanMap\ttxy.test\bin\Release\ttxy.DAL.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.test\bin\Release\ttxy.Model.pdb
+C:\Users\ann\Desktop\LanMap\ttxy.test\obj\x86\Release\ttxy.test.csprojResolveAssemblyReference.cache
+C:\Users\ann\Desktop\LanMap\ttxy.test\obj\x86\Release\ttxy.test.exe
+C:\Users\ann\Desktop\LanMap\ttxy.test\obj\x86\Release\ttxy.test.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.test.exe.config
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.test.exe
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.test.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.BLL.dll
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.DAL.dll
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.Model.dll
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.Security.dll
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\MySql.Data.dll
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.BLL.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.DAL.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.Model.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.test\bin\Release\ttxy.Security.pdb
+C:\ttxy\workspace\net\ThMap\ttxy.test\obj\x86\Release\ttxy.test.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\ThMap\ttxy.test\obj\x86\Release\ttxy.test.exe
+C:\ttxy\workspace\net\ThMap\ttxy.test\obj\x86\Release\ttxy.test.pdb
