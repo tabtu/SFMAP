@@ -85,3 +85,7 @@ C:\ttxy\workspace\net\ThMap\ttxy.Model\bin\Debug\ttxy.Model.dll
 C:\ttxy\workspace\net\ThMap\ttxy.Model\bin\Debug\ttxy.Model.pdb
 C:\ttxy\workspace\net\ThMap\ttxy.Model\obj\Debug\ttxy.Model.dll
 C:\ttxy\workspace\net\ThMap\ttxy.Model\obj\Debug\ttxy.Model.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\bin\Debug\ttxy.Model.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\bin\Debug\ttxy.Model.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\obj\Debug\ttxy.Model.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\obj\Debug\ttxy.Model.pdb

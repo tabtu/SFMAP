@@ -16,7 +16,25 @@ namespace ttxy.test
     {
         static void Main(string[] args)
         {
+            testcontent();
+        }
 
+        static void testcontent()
+        {
+            double[] ct = LbsTrans.BD09toGCJ02(106.720537, 26.615896);
+            UseFunction uf = new UseFunction();
+            IList<LocalData> ls = uf.get_local("司法行政机关");
+            string tmp = LbsMaker.MakeMap(ct[0] + ", " + ct[1], "12", LbsMaker.MakeMapPoints(ls));
+            File.WriteAllText("C:/ttxy/desktop/file/file.txt", tmp);
+            Console.WriteLine(tmp);
+        }
+
+        /// <summary>
+        /// 调用转换坐标
+        /// </summary>
+        static void transLBS()
+        {
+            LbsTrans.copydata_bd2gcj();
         }
 
         static void test4()

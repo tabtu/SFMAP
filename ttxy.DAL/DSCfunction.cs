@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
-using System.Data.SqlClient;
-
-using ttxy.Model;
-
-namespace ttxy.DAL
+﻿namespace ttxy.DAL
 {
     public class DSCfunction
     {

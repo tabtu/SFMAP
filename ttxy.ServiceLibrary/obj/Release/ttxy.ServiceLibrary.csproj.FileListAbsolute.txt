@@ -223,3 +223,15 @@ C:\ttxy\workspace\net\ThMap\ttxy.ServiceLibrary\bin\Release\ttxy.DAL.pdb
 C:\ttxy\workspace\net\ThMap\ttxy.ServiceLibrary\obj\Release\ttxy.ServiceLibrary.csprojResolveAssemblyReference.cache
 C:\ttxy\workspace\net\ThMap\ttxy.ServiceLibrary\obj\Release\ttxy.ServiceLibrary.dll
 C:\ttxy\workspace\net\ThMap\ttxy.ServiceLibrary\obj\Release\ttxy.ServiceLibrary.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\ttxy.ServiceLibrary.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\ttxy.ServiceLibrary.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\ttxy.BLL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\ttxy.Model.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\ttxy.DAL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\MySql.Data.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\ttxy.BLL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\ttxy.Model.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Release\ttxy.DAL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\obj\Release\ttxy.ServiceLibrary.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\obj\Release\ttxy.ServiceLibrary.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\obj\Release\ttxy.ServiceLibrary.pdb

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ttxy.BLL
+﻿namespace ttxy.BLL
 {
     /// <summary>
     /// Powered by Tab Tu

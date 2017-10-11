@@ -212,3 +212,15 @@ C:\ttxy\workspace\net\ThMap\ttxy.BLL\bin\Debug\ttxy.Security.pdb
 C:\ttxy\workspace\net\ThMap\ttxy.BLL\obj\Debug\ttxy.BLL.csprojResolveAssemblyReference.cache
 C:\ttxy\workspace\net\ThMap\ttxy.BLL\obj\Debug\ttxy.BLL.dll
 C:\ttxy\workspace\net\ThMap\ttxy.BLL\obj\Debug\ttxy.BLL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\ttxy.BLL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\ttxy.BLL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\ttxy.DAL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\ttxy.Model.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\ttxy.Security.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\MySql.Data.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\ttxy.DAL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\ttxy.Model.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\bin\Debug\ttxy.Security.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\obj\Debug\ttxy.BLL.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\obj\Debug\ttxy.BLL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.BLL\obj\Debug\ttxy.BLL.pdb

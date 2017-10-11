@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using ttxy.DAL;
+﻿using System.Collections.Generic;
 using ttxy.Model;
 
 namespace ttxy.BLL
@@ -151,6 +146,22 @@ namespace ttxy.BLL
         /// <param name="points">标记点数据</param>
         /// <returns>HTML发布文档</returns>
         public static string MakeMap(string gpscenter, string zoom, string points)
+        {
+            string h0 = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\" />\r\n<meta name=\"keywords\" content=\"贵阳法治地图\" />\r\n<meta name=\"description\" content=\"贵阳法治地图\" />\r\n<title>贵阳法治地图</title>\r\n\r\n<style type=\"text/css\">\r\n    html,body{margin:0;padding:0;}\r\n    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}\r\n    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}\r\n</style>\r\n<script type=\"text/javascript\" src=\"http://api.map.baidu.com/api?v=2.0&ak=7jX0fH8U0LAyWrd6Lp4HQXYalxfXvZvk\"></script>\r\n</head>\r\n\r\n<body>\r\n  \r\n  <div style=\"width:100%;height:600px;border:#ccc solid 1px;\" id=\"dituContent\"></div>\r\n</body>\r\n<script type=\"text/javascript\">\r\n    \r\n    function initMap(){\r\n        createMap();\r\n        setMapEvent();\r\n        addMapControl();\r\n        addMarker();\r\n    }\r\n    \r\n    \r\n    function createMap(){\r\n        var map = new BMap.Map(\"dituContent\");\r\n        var point = new BMap.Point(";
+            string h1 = ");\r\nmap.centerAndZoom(point,";
+            string h2 = ");\r\nwindow.map = map;\r\n    }\r\n    \r\n    \r\n    function setMapEvent(){\r\n        map.enableDragging();\r\n        map.enableScrollWheelZoom();\r\n        map.enableDoubleClickZoom();\r\n        map.enableKeyboard();\r\n    }\r\n    \r\n    \r\n    function addMapControl(){\r\n       \r\n\tvar ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});\r\n\tmap.addControl(ctrl_nav);\r\n        \r\n\tvar ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});\r\n\tmap.addControl(ctrl_ove);\r\n        \r\n\tvar ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});\r\n\tmap.addControl(ctrl_sca);\r\n    }\r\n    \r\n    \r\n    var markerArr = [";
+            string h3 = "];\r\nfunction addMarker(){\r\n        for(var i=0;i<markerArr.length;i++){\r\n            var json = markerArr[i];\r\n            var p0 = json.point.split(\"|\")[0];\r\n            var p1 = json.point.split(\"|\")[1];\r\n            var point = new BMap.Point(p0,p1);\r\n\t\t\tvar iconImg = createIcon(json.icon);\r\n            var marker = new BMap.Marker(point,{icon:iconImg});\r\n\t\t\tvar iw = createInfoWindow(i);\r\n\t\t\tvar label = new BMap.Label(json.title,{\"offset\":new BMap.Size(json.icon.lb-json.icon.x+4,7)});\r\n\t\t\tmarker.setLabel(label);\r\n            map.addOverlay(marker);\r\n            label.setStyle({\r\n                        borderColor:\"#808080\",\r\n                        color:\"#333\",\r\n                        cursor:\"pointer\"\r\n            });\r\n\t\t\t\r\n\t\t\t(function(){\r\n\t\t\t\tvar index = i;\r\n\t\t\t\tvar _iw = createInfoWindow(i);\r\n\t\t\t\tvar _marker = marker;\r\n\t\t\t\t_marker.addEventListener(\"click\",function(){\r\n\t\t\t\t    this.openInfoWindow(_iw);\r\n\t\t\t    });\r\n\t\t\t    _iw.addEventListener(\"open\",function(){\r\n\t\t\t\t    _marker.getLabel().hide();\r\n\t\t\t    })\r\n\t\t\t    _iw.addEventListener(\"close\",function(){\r\n\t\t\t\t    _marker.getLabel().show();\r\n\t\t\t    })\r\n\t\t\t\tlabel.addEventListener(\"click\",function(){\r\n\t\t\t\t    _marker.openInfoWindow(_iw);\r\n\t\t\t    })\r\n\t\t\t\tif(!!json.isOpen){\r\n\t\t\t\t\tlabel.hide();\r\n\t\t\t\t\t_marker.openInfoWindow(_iw);\r\n\t\t\t\t}\r\n\t\t\t})()\r\n        }\r\n    }\r\n    \r\n    function createInfoWindow(i){\r\n        var json = markerArr[i];\r\n        var iw = new BMap.InfoWindow(\"<b class='iw_poi_title' title='\" + json.title + \"'>\" + json.title + \"</b><div class='iw_poi_content'>\"+json.content+\"</div>\");\r\n        return iw;\r\n    }\r\n    \r\n    function createIcon(json){\r\n        var icon = new BMap.Icon(\"" + StrUtil.mainurl + "Pic/icon.png\", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})\r\n        return icon;\r\n    }\r\n    \r\n    initMap();\r\n</script>\r\n</html>";
+            return h0 + gpscenter + h1 + zoom + h2 + points + h3;
+        }
+
+        /// <summary>
+        /// 天地图API生成地图
+        /// </summary>
+        /// <param name="gpscenter"></param>
+        /// <param name="zoom"></param>
+        /// <param name="points"></param>
+        /// <returns></returns>
+        public static string MakeMapTDT(string gpscenter, string zoom, string points)
         {
             string h0 = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\" />\r\n<meta name=\"keywords\" content=\"贵阳法治地图\" />\r\n<meta name=\"description\" content=\"贵阳法治地图\" />\r\n<title>贵阳法治地图</title>\r\n\r\n<style type=\"text/css\">\r\n    html,body{margin:0;padding:0;}\r\n    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}\r\n    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}\r\n</style>\r\n<script type=\"text/javascript\" src=\"http://api.map.baidu.com/api?v=2.0&ak=7jX0fH8U0LAyWrd6Lp4HQXYalxfXvZvk\"></script>\r\n</head>\r\n\r\n<body>\r\n  \r\n  <div style=\"width:100%;height:600px;border:#ccc solid 1px;\" id=\"dituContent\"></div>\r\n</body>\r\n<script type=\"text/javascript\">\r\n    \r\n    function initMap(){\r\n        createMap();\r\n        setMapEvent();\r\n        addMapControl();\r\n        addMarker();\r\n    }\r\n    \r\n    \r\n    function createMap(){\r\n        var map = new BMap.Map(\"dituContent\");\r\n        var point = new BMap.Point(";
             string h1 = ");\r\nmap.centerAndZoom(point,";

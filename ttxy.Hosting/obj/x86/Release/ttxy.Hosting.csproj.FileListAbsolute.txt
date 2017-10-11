@@ -252,3 +252,11 @@ C:\ttxy\workspace\net\ThMap\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
 C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
 C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
 C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Release\ttxy.Hosting.exe.config
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Release\ttxy.Hosting.exe
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Release\ttxy.Hosting.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Release\ttxy.ServiceLibrary.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.exe
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\obj\x86\Release\ttxy.Hosting.pdb

@@ -195,3 +195,12 @@ C:\ttxy\workspace\net\ThMap\ttxy.DAL\bin\Release\ttxy.Model.pdb
 C:\ttxy\workspace\net\ThMap\ttxy.DAL\obj\Release\ttxy.DAL.csprojResolveAssemblyReference.cache
 C:\ttxy\workspace\net\ThMap\ttxy.DAL\obj\Release\ttxy.DAL.dll
 C:\ttxy\workspace\net\ThMap\ttxy.DAL\obj\Release\ttxy.DAL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\bin\Release\ttxy.DAL.dll.config
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\bin\Release\ttxy.DAL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\bin\Release\ttxy.DAL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\bin\Release\MySql.Data.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\bin\Release\ttxy.Model.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\bin\Release\ttxy.Model.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\obj\Release\ttxy.DAL.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\obj\Release\ttxy.DAL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.DAL\obj\Release\ttxy.DAL.pdb

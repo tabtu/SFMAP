@@ -16,7 +16,7 @@ public partial class MapMain : System.Web.UI.Page
         {
             UseFunction uf = new UseFunction();
             IList<LocalData> ls = uf.get_local("司法行政机关");
-            this.Literal_map.Text = LbsMaker.MakeMap("106.720537, 26.615896", "12", LbsMaker.MakeMapPoints(ls));
+            Literal_map.Text = LbsMaker.MakeMap("106.720537, 26.615896", "12", LbsMaker.MakeMapPoints(ls));
             keyword.Text = "类别：司法行政机关，可按关键字查询";
 
         }
