@@ -193,3 +193,11 @@ C:\ttxy\workspace\net\ThMap\ttxy.Hosting\bin\Debug\ttxy.ServiceLibrary.pdb
 C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Debug\ttxy.Hosting.csprojResolveAssemblyReference.cache
 C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Debug\ttxy.Hosting.exe
 C:\ttxy\workspace\net\ThMap\ttxy.Hosting\obj\x86\Debug\ttxy.Hosting.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Debug\ttxy.Hosting.exe.config
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Debug\ttxy.Hosting.exe
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Debug\ttxy.Hosting.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Debug\ttxy.ServiceLibrary.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\bin\Debug\ttxy.ServiceLibrary.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\obj\x86\Debug\ttxy.Hosting.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\obj\x86\Debug\ttxy.Hosting.exe
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Hosting\obj\x86\Debug\ttxy.Hosting.pdb

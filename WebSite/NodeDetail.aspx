@@ -7,7 +7,7 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>贵阳法治地图</title>
-    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/NodeDetail.js"></script>
     <script src="Scripts/jquery.js"></script>
@@ -47,9 +47,9 @@
 								公 交 <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a href="#"  onClick="busRoute(0)">用时最少</a></li>
-								<li><a href="#"  onClick="busRoute(1)">最少换乘</a></li>
-								<li><a href="#"  onClick="busRoute(2)">最少步行</a></li>
+								<li><a href="#"  onclick="busRoute(0)">用时最少</a></li>
+								<li><a href="#"  onclick="busRoute(1)">最少换乘</a></li>
+								<li><a href="#"  onclick="busRoute(2)">最少步行</a></li>
 								
 
 							</ul>
@@ -62,9 +62,9 @@
 								驾 车 <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a href="#" onClick="drivingRoute(0)">最少时间</a></li>
-								<li><a href="#" onClick="drivingRoute(1)">最短距离</a></li>
-								<li><a href="#" onClick="drivingRoute(2)">避开高速</a></li>
+								<li><a href="#" onclick="drivingRoute(0)">最少时间</a></li>
+								<li><a href="#" onclick="drivingRoute(1)">最短距离</a></li>
+								<li><a href="#" onclick="drivingRoute(2)">避开高速</a></li>
 							</ul>
 						</div>
 					</div>

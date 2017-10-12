@@ -220,3 +220,15 @@ C:\ttxy\workspace\net\ThMap\ttxy.ServiceLibrary\bin\Debug\ttxy.DAL.pdb
 C:\ttxy\workspace\net\ThMap\ttxy.ServiceLibrary\obj\Debug\ttxy.ServiceLibrary.csprojResolveAssemblyReference.cache
 C:\ttxy\workspace\net\ThMap\ttxy.ServiceLibrary\obj\Debug\ttxy.ServiceLibrary.dll
 C:\ttxy\workspace\net\ThMap\ttxy.ServiceLibrary\obj\Debug\ttxy.ServiceLibrary.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\ttxy.ServiceLibrary.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\ttxy.ServiceLibrary.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\ttxy.BLL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\ttxy.Model.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\ttxy.DAL.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\MySql.Data.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\ttxy.BLL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\ttxy.Model.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\bin\Debug\ttxy.DAL.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\obj\Debug\ttxy.ServiceLibrary.csprojResolveAssemblyReference.cache
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\obj\Debug\ttxy.ServiceLibrary.dll
+C:\ttxy\workspace\net\SFMAP\src\ttxy.ServiceLibrary\obj\Debug\ttxy.ServiceLibrary.pdb

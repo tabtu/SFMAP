@@ -57,7 +57,7 @@ namespace ttxy.BLL
                     "<br/><a href=tel:" + ld[i].Tele + ">拨打电话</a></p>" +
                     "<br/>详细地址：" + ld[i].Address + 
                     "<br/>其他信息：" + ld[i].OCW + 
-                    "<br/><a href=" + mainurl + "NodeDetail.aspx?" + ld[i].ID + ">显示详情</a></p>" + 
+                    "<br/><a href=" + mainurl + "NodeDetail2.aspx?" + ld[i].ID + ">显示详情</a></p>" + 
                     "</p>\",point:\"" + ld[i].Lng + "|" + ld[i].Lat + 
                     "\",isOpen:0,icon:{" + icontmp + 
                     "}}\r\n\t\t ,";

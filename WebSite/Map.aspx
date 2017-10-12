@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="MapMain.aspx.cs" Inherits="MapMain" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Map.aspx.cs" Inherits="MapMain" %>
 
 <!DOCTYPE html>
 

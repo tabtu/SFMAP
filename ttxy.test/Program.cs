@@ -16,7 +16,14 @@ namespace ttxy.test
     {
         static void Main(string[] args)
         {
-            testcontent();
+            transLBS();
+            //showconvert(116.40093, 39.90313);
+        }
+
+        static void showconvert(double lng, double lat)
+        {
+            double[] ct = LbsTrans.BD09toGCJ02(106.720537, 26.615896);
+            Console.WriteLine(ct[0] + "   " + ct[1]);
         }
 
         static void testcontent()

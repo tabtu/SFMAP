@@ -7,7 +7,7 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Detail</title>
-    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/MapMain.js"></script>
     <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>

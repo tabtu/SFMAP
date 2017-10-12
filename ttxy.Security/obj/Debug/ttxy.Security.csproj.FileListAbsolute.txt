@@ -53,3 +53,4 @@ C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\bin\Debug\ttxy.Security.dll
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\bin\Debug\ttxy.Security.pdb
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\obj\Debug\ttxy.Security.dll
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\obj\Debug\ttxy.Security.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\obj\Debug\ttxy.Security.csprojResolveAssemblyReference.cache
