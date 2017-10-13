@@ -31,39 +31,7 @@
 	height: 24px;
 	background-color: #d9edf7;
 	border-bottom: 1px solid #bce8f1;
-    vertical-align:middle;
+    vertical-align:sub;
     line-height:24px;
     padding:inherit;
-}
-
-.dropdown-menu {
-  border: medium none;
-  border-radius: 3px;
-  box-shadow: 0 0 3px rgba(86, 96, 117, 0.7);
-  display: none;
-  float: left;
-  font-size: 12px;
-  left: 0;
-  list-style: none outside none;
-  padding: 0;
-  position: absolute;
-  text-shadow: none;
-  top: 100%;
-  z-index: 1000;
-}
-
-.dropdown-menu > li{
-width: 50px;
-}
-
-.dropdown-menu > li > a {
-  border-radius: 3px;
-  color: inherit;
-  line-height: 25px;
-  margin: 4px;
-  text-align: left;
-  font-weight: normal;
-}
-.dropdown-menu > li > a.font-bold {
-  font-weight: 600;
 }

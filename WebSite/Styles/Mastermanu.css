@@ -11,10 +11,52 @@
     width: 600px;
 }
 
-.contenttable,.contentimage /*表格，图片默认格式*/ {
-    margin: 0px 0% 0px 0%;
-    width: 100%;
+.contenttable2,.contentimage /*表格，图片默认格式*/ {
+    
+margin:0 auto;
+    
     margin-top: 0px;
+    text-align: center;
+     border: 1px solid #0099cc;
+}
+
+
+.contenttable,.contentimage /*表格，图片默认格式*/ {
+    
+margin:0 auto;
+    width: 600px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+.contenttable22,.contentimage22 /*表格，图片默认格式*/ {
+    
+margin:0 auto;
+    width: 640px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+
+.contenttable1,.contentimage /*表格，图片默认格式*/ {
+    
+margin:0 auto;
+    width: 600px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+.button1
+{
+    
+margin-left:250px;
+    width: 200px;
+   
     text-align: center;
 }
 
@@ -113,17 +155,86 @@
     font-style: normal;
     margin: 0px;
     text-align: center;
+
 }
 
 .listtitle td {
     /*width: 10%;*/
+     
     white-space: nowrap; /*文字不转弯*/
     font-weight: 700;
     color: white;
     background-color: #0099cc;
     border: 1px solid white;
     padding: 0px 30px 0px 30px;
+ text-align:center;
 }
+
+
+.listtitle2 td 
+{
+   
+   width: 600px;
+    white-space: nowrap; /*文字不转弯*/
+    font-weight: 700;
+    color: white;
+    background-color: #0099cc;
+    border: 1px solid white;
+     text-align:center;
+   padding: 0px 30px 0px 250px;
+}
+
+.listtitle22 td 
+{
+   
+   width: 600px;
+    white-space: nowrap; /*文字不转弯*/
+    font-weight: 700;
+    color: white;
+    background-color: #0099cc;
+    border: 1px solid white;
+     text-align:center;
+   padding: 0px 30px 0px 250px;
+}
+
+
+.listtitle3 td 
+{
+   
+  font-family: "微软雅黑","黑体",'Times New Roman';
+    white-space: nowrap; /*文字不转弯*/
+    font-weight: 700;
+    color: white;
+   background-color: #0099cc;
+   border: 1px solid white;
+     text-align:center;
+        font-size: 15px;
+   
+}
+
+
+.listtitle44 td
+{
+   
+   width: 50px;
+    white-space: nowrap; /*文字不转弯*/
+    font-weight: 700;
+     text-align:center;
+    border: 1px solid #0099cc;
+}
+
+
+ .listtitle45 td
+{
+   
+    width: 550px;
+    white-space: nowrap; /*文字不转弯*/
+    font-weight: 700;
+     text-align:center;
+    
+}
+
+
 
 .listcontent td {
     color: white;
@@ -140,6 +251,18 @@
     border-collapse: separate;
 }
 
+
+.listcontent222 td{
+    font-family: "微软雅黑","黑体",'Times New Roman';
+    height:150px;
+    font-style: normal;
+    margin: 0px;
+    white-space: nowrap; /*文字不转弯*/
+    border-collapse: separate;
+}
+
+
+
 .listtitle2 td {
     text-align: center;
     font-size: 17px;
@@ -155,11 +278,28 @@
     background-color: #268cbd;
 }
 
+
+.listcontent3 td {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #268cbd;
+        border: 1px solid #8ccbde;
+}
+
+.listcontent3 td a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #268cbd;
+}
+
+
     .listcontent2 td .textbox, .textbox1 ,.listcontent2 td .label {
         font-family: "微软雅黑",Verdana,'Times New Roman';
         font-size: 15px;
         font-style: normal;
-        text-align: center;
+        text-align: left;
     }
 
     .listcontent2 td .textbox,.textbox1  {

@@ -7,14 +7,14 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>贵阳法治地图</title>
-    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/NodeDetail.js"></script>
     <script src="Scripts/jquery.js"></script>
     <script type="text/javascript" src="http://api.tianditu.com/api?v=4.0"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7jX0fH8U0LAyWrd6Lp4HQXYalxfXvZvk"></script>
     <link rel="stylesheet" type="text/css" href="Styles/NodeDetail.css" />
-    <link  rel="stylesheet"type="text/css" href="Styles/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="Styles/bootstrap.min.css" media="all" />
 </head>
 <body onload="onLoad()">
     <div class="container" style="width:100%; height:inherit">
@@ -97,14 +97,27 @@
         var map_bus = "http://lbs.tianditu.com/images/bus/map_bus.png";
         var map_metro = "http://lbs.tianditu.com/images/bus/map_metro.png";
 
+        getLocation();
+
         function onLoad() {
-            getLocation();
 
             map = new T.Map('navigation_map');
             map.centerAndZoom(new T.LngLat(e_lng, e_lat), zoom);
 
             var marker = new T.Marker(new T.LngLat(e_lng, e_lat));
             map.addOverLay(marker);
+
+            var configdrive = {
+                policy: 0,	//驾车策略
+                onSearchComplete: searchResult	//检索完成后的回调函数
+            };
+            drivingRoute = new T.DrivingRoute(map, configdrive);
+
+            var config = {
+                policy: 8,	//公交导航的策略参数
+                onSearchComplete: busSearchResult	//检索完成后的回调函数
+            };
+            transitRoute = new T.TransitRoute(map, config);
         }
 
         function searchBusRoute(policy) {
@@ -188,12 +201,6 @@
             map.clearOverLays();
             startLngLat = new T.LngLat(s_lng, s_lat);
             endLngLat = new T.LngLat(e_lng, e_lat);
-
-            var configdrive = {
-                policy: 0,	//驾车策略
-                onSearchComplete: searchResult	//检索完成后的回调函数
-            };
-            drivingRoute = new T.DrivingRoute(map, configdrive);
 
             //设置驾车策略
             drivingRoute.setPolicy(policy);
