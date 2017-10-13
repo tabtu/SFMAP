@@ -57,7 +57,7 @@ namespace ttxy.BLL
                     "<br/><a href=tel:" + ld[i].Tele + ">拨打电话</a></p>" +
                     "<br/>详细地址：" + ld[i].Address + 
                     "<br/>其他信息：" + ld[i].OCW + 
-                    "<br/><a href=" + mainurl + "NodeDetail2.aspx?" + ld[i].ID + ">显示详情</a></p>" + 
+                    "<br/><a href=" + mainurl + "NodeDetail.aspx?" + ld[i].ID + ">显示详情</a></p>" + 
                     "</p>\",point:\"" + ld[i].Lng + "|" + ld[i].Lat + 
                     "\",isOpen:0,icon:{" + icontmp + 
                     "}}\r\n\t\t ,";
@@ -169,10 +169,30 @@ namespace ttxy.BLL
             string h3 = "\t\t\t\r\n        }\r\n    </script>\r\n</head>\r\n<body onLoad=\"onLoad()\">\r\n<div id=\"mapDiv\"></div>\r\n</body>\r\n</html>";
             return h0 + gpscenter + h1 + zoom + h2 + tdtpoints + h3;
         }
-
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ld"></param>
+        /// <returns></returns>
         public static string MakeMapPointsTDT(IList<LocalData> ld)
         {
-            string tmp = "var markerArr = [" + MakeMapPoints(ld) + "];";
+            string points = "";
+            for (int i = 0; i < ld.Count; i++)
+            {
+                string temp = "{title:\"" + "" + //ld[i].Name + 
+                    "\",content:\"<br/>" + ld[i].Name +
+                    //jxtmp + "<br/>" + 
+                    "<p style='font-weight:600;'>" +
+                    "<br/><a href=tel:" + ld[i].Tele + ">拨打电话</a></p>" +
+                    "<br/>详细地址：" + ld[i].Address +
+                    "<br/>其他信息：" + ld[i].OCW +
+                    "<br/><a href=" + mainurl + "NodeDetail2.aspx?" + ld[i].ID + ">显示详情</a></p>" +
+                    "</p>\",point:\"" + ld[i].Lng + "|" + ld[i].Lat + "\",isOpen:0},";
+                points += temp;
+            }
+            string ldtmp = points.Substring(0, points.Length - 1);
+            string tmp = "var markerArr = [" + ldtmp + "];";
             string labels = "";
             for (int i = 0; i < ld.Count; i++)
             {

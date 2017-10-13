@@ -49,11 +49,9 @@
 								公 交 <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a onclick="searchBus(0)">用时最少</a></li>
-								<li><a onclick="searchBus(1)">最少换乘</a></li>
-								<li><a onclick="searchBus(2)">最少步行</a></li>
-								
-
+								<li><a onclick="searchBusRoute(1)">较快捷</a></li>
+								<li><a onclick="searchBusRoute(2)">少换乘</a></li>
+								<li><a onclick="searchBusRoute(4)">少步行</a></li>
 							</ul>
 						</div>
 					</div>
@@ -64,15 +62,15 @@
 								驾 车 <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a onclick="searchDrivingRoute(0)">最少时间</a></li>
-								<li><a onclick="searchDrivingRoute(1)">最短距离</a></li>
-								<li><a onclick="searchDrivingRoute(2)">避开高速</a></li>
+								<li><a href="#" onclick="searchDrivingRoute(0)">最少时间</a></li>
+								<li><a href="#" onclick="searchDrivingRoute(1)">最短距离</a></li>
+								<li><a href="#" onclick="searchDrivingRoute(2)">避开高速</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-xs-4">
 						<div class="btn-group">
-							<button class="btn btn-default  btn-outline" onclick="walkingRoute()">
+							<button class="btn btn-default  btn-outline" onclick="searchBusRoute(8)">
 							    <i class="fa fa-male"></i>步 行
 							</button>
 						</div>
@@ -87,8 +85,8 @@
     <script>
         var e_lng = "<%=Get_e_Lng()%>";
         var e_lat = "<%=Get_e_Lat()%>";
-        var s_lng = 106.630226;
-        var s_lat = 26.647593;
+        var s_lng;
+        var s_lat;
 		var zoom = 12;
 
 		var map, drivingRoute, transitRoute, obj;
@@ -100,29 +98,24 @@
         var map_metro = "http://lbs.tianditu.com/images/bus/map_metro.png";
 
         function onLoad() {
+            getLocation();
+
             map = new T.Map('navigation_map');
             map.centerAndZoom(new T.LngLat(e_lng, e_lat), zoom);
 
             var marker = new T.Marker(new T.LngLat(e_lng, e_lat));
             map.addOverLay(marker);
+        }
 
-            var configdrive = {
-                policy: 0,	//驾车策略
-                onSearchComplete: searchResult	//检索完成后的回调函数
-            };
-            drivingRoute = new T.DrivingRoute(map, configdrive);
-
-            var configbus = {
-                policy: 1,	//公交导航的策略参数
+        function searchBusRoute(policy) {
+            var config = {
+                policy: policy,	//公交导航的策略参数
                 onSearchComplete: busSearchResult	//检索完成后的回调函数
             };
             //创建公交搜索对象
-            transitRoute = new T.TransitRoute(map, configbus);
+            transitRoute = new T.TransitRoute(map, config);
             searchBus();
         }
-
-
-        getLocation();
 
         function getLocation() {
             if (navigator.geolocation) {
@@ -173,11 +166,13 @@
             }
         }
 
-        var x_PI = 3.14159265358979324 * 3000.0 / 180.0;
-        var PI = 3.1415926535897932384626;
-        var a = 6378245.0;
-        var ee = 0.00669342162296594323;
+        // 转换BD09到GCJ02
         function bd09togcj02(bd_lon, bd_lat) {
+            var x_PI = 3.14159265358979324 * 3000.0 / 180.0;
+            var PI = 3.1415926535897932384626;
+            var a = 6378245.0;
+            var ee = 0.00669342162296594323;
+
             var x_pi = 3.14159265358979324 * 3000.0 / 180.0;
             var x = bd_lon - 0.0065;
             var y = bd_lat - 0.006;
@@ -188,13 +183,18 @@
             return [gg_lng, gg_lat]
         }
 
-
-
         // 驾车搜索
         function searchDrivingRoute(policy) {
             map.clearOverLays();
-            startLngLat = new T.LngLat(106.630226, 26.647593);
-            endLngLat = new T.LngLat(106.690872, 26.582972);
+            startLngLat = new T.LngLat(s_lng, s_lat);
+            endLngLat = new T.LngLat(e_lng, e_lat);
+
+            var configdrive = {
+                policy: 0,	//驾车策略
+                onSearchComplete: searchResult	//检索完成后的回调函数
+            };
+            drivingRoute = new T.DrivingRoute(map, configdrive);
+
             //设置驾车策略
             drivingRoute.setPolicy(policy);
             //驾车路线搜索
@@ -250,8 +250,8 @@
             //清空地图
             map.clearOverLays();
 
-            startLngLat = new T.LngLat(106.630226, 26.647593);
-            endLngLat = new T.LngLat(106.690872, 26.582972);
+            startLngLat = new T.LngLat(s_lng, s_lat);
+            endLngLat = new T.LngLat(e_lng, e_lat);
 
             transitRoute.search(startLngLat, endLngLat);
         }
