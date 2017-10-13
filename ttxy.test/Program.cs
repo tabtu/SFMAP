@@ -16,8 +16,30 @@ namespace ttxy.test
     {
         static void Main(string[] args)
         {
-            transLBS();
+            showhtml();
+            //showpoints();
+            //readhtml();
+            //transLBS();
             //showconvert(116.40093, 39.90313);
+        }
+
+        static void showhtml()
+        {
+            UseFunction uf = new UseFunction();
+            IList<LocalData> ls = uf.get_local("司法行政机关");
+            string html = LbsMaker.MakeMapTDT("106.720537, 26.615896", "12", LbsMaker.MakeMapPointsTDT(ls));
+            File.WriteAllText("C:/ttxy/desktop/lbs/map.html", html);
+            Console.WriteLine(html);
+        }
+
+        static void showpoints()
+        {
+            DLocalDataGCJ dd = new DLocalDataGCJ();
+            IList<LocalData> tt = dd.SELECT_ALL();
+            string ss = LbsMaker.MakeMapPointsTDT(tt);
+            //string ss = LbsMaker.MakeMapPoints(tt);
+            File.WriteAllText("C:/ttxy/desktop/lbs/points.txt", ss);
+            Console.WriteLine(ss);
         }
 
         static void showconvert(double lng, double lat)
@@ -26,13 +48,19 @@ namespace ttxy.test
             Console.WriteLine(ct[0] + "   " + ct[1]);
         }
 
+        static void readhtml()
+        {
+            String html = File.ReadAllText("C:/ttxy/desktop/lbs/new.html");
+            Console.WriteLine(html);
+        }
+
         static void testcontent()
         {
             double[] ct = LbsTrans.BD09toGCJ02(106.720537, 26.615896);
             UseFunction uf = new UseFunction();
             IList<LocalData> ls = uf.get_local("司法行政机关");
             string tmp = LbsMaker.MakeMap(ct[0] + ", " + ct[1], "12", LbsMaker.MakeMapPoints(ls));
-            File.WriteAllText("C:/ttxy/desktop/file/file.txt", tmp);
+            File.WriteAllText("C:/ttxy/desktop/lbs/test.txt", tmp);
             Console.WriteLine(tmp);
         }
 

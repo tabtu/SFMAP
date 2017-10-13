@@ -16,7 +16,7 @@ public partial class MapMain : System.Web.UI.Page
         {
             UseFunction uf = new UseFunction();
             IList<LocalData> ls = uf.get_local("司法行政机关");
-            Literal_map.Text = LbsMaker.MakeMap("106.720537, 26.615896", "12", LbsMaker.MakeMapPoints(ls));
+            Literal_map.Text = LbsMaker.MakeMapTDT("106.720537, 26.615896", "12", LbsMaker.MakeMapPointsTDT(ls));
             keyword.Text = "类别：司法行政机关，可按关键字查询";
 
         }
@@ -42,7 +42,7 @@ public partial class MapMain : System.Web.UI.Page
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "16", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "16", LbsMaker.MakeMapPointsTDT(ls));
         }
     }
 
@@ -57,7 +57,7 @@ public partial class MapMain : System.Web.UI.Page
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
  keyword.Text = "类别：基层法律服务所，可按关键字查询";
         }
     }
@@ -73,7 +73,7 @@ public partial class MapMain : System.Web.UI.Page
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
        keyword.Text = "类别：司法行政机关，可按关键字查询";
 
         }
@@ -90,7 +90,7 @@ public partial class MapMain : System.Web.UI.Page
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
 keyword.Text = "类别：法律援助中心，可按关键字查询";
         }
     }
@@ -106,7 +106,7 @@ keyword.Text = "类别：法律援助中心，可按关键字查询";
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
 keyword.Text = "类别：司法鉴定机构，可按关键字查询";
         }
     }
@@ -122,7 +122,7 @@ keyword.Text = "类别：司法鉴定机构，可按关键字查询";
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
 keyword.Text = "类别：律师事务所，可按关键字查询";
         }
     }
@@ -138,7 +138,7 @@ keyword.Text = "类别：律师事务所，可按关键字查询";
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
 keyword.Text = "类别：公证机构，可按关键字查询";
         }
     }

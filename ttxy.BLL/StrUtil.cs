@@ -13,14 +13,10 @@
 
         // 测试点
         public const string upload = @"C:\users\ttxy\desktop\lanmap\website\upload\map\";
-        public const string mainurl = "http://localhost:11281/website/";
-
-        // 发布点
-        //public const string upload = @"e:\Publish\map\upload\map\";
-        //public const string mainurl = "http://www.otoforu.com/";
+        public const string mainurl = "http://localhost:11281/";
 
         // 发布点
         //public const string upload = @"E:\published\map\upload\map\";
-        //public const string mainurl = "http://fmap.gzyxgkj.com/";
+        //public const string mainurl = "http://sfmap.gzyxgkj.com/";
     }
 }
