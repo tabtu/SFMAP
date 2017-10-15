@@ -12,7 +12,6 @@
     <script src="Scripts/NodeDetail.js"></script>
     <script src="Scripts/jquery.js"></script>
     <script type="text/javascript" src="http://api.tianditu.com/api?v=4.0"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7jX0fH8U0LAyWrd6Lp4HQXYalxfXvZvk"></script>
     <link rel="stylesheet" type="text/css" href="Styles/NodeDetail.css" />
     <link rel="stylesheet" type="text/css" href="Styles/bootstrap.min.css" media="all" />
 </head>
@@ -87,6 +86,7 @@
         var e_lat = "<%=Get_e_Lat()%>";
         var s_lng;
         var s_lat;
+        var s_lnglat;
 		var zoom = 12;
 
 		var map, drivingRoute, transitRoute, obj;
@@ -97,8 +97,6 @@
         var map_bus = "http://lbs.tianditu.com/images/bus/map_bus.png";
         var map_metro = "http://lbs.tianditu.com/images/bus/map_metro.png";
 
-        getLocation();
-
         function onLoad() {
 
             map = new T.Map('navigation_map');
@@ -106,6 +104,22 @@
 
             var marker = new T.Marker(new T.LngLat(e_lng, e_lat));
             map.addOverLay(marker);
+
+            var lo = new T.Geolocation();
+            fn = function (e) {
+                if (this.getStatus() == 0) {
+                    s_lnglat = e.lnglat;
+                    var marker = new T.Marker(s_lnglat);
+                    map.addOverLay(marker);
+
+                }
+                if (this.getStatus() == 1) {
+                    s_lnglat = e.lnglat;
+                    var marker = new T.Marker(s_lnglat);
+                    map.addOverLay(marker);
+                }
+            }
+            lo.getCurrentPosition(fn);
 
             var configdrive = {
                 policy: 0,	//驾车策略
@@ -130,38 +144,6 @@
             searchBus();
         }
 
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition, showError);
-            }
-            else { alert("Geolocation is not supported by this browser."); }
-        }
-
-        function showPosition(position) {
-            s_lng = position.coords.longitude;
-            s_lat = position.coords.latitude;
-
-            var ggpoint = new BMap.Point(s_lng, s_lat);
-            var convertor = new BMap.Convertor();
-            var pointArr = [];
-            pointArr.push(ggpoint);
-            convertor.translate(pointArr, 1, 5, translateCallback)
-        }
-
-        translateCallback = function (data) {
-            if (data.status === 0) {
-                s_lng = data.points[0].lng;
-                s_lat = data.points[0].lat;
-
-                var lng_lat_2 = gcj02tobd09(data.points[0].lng, data.points[0].lat);
-
-                var marker = new T.Marker(new T.LngLat(lng_lat_2[0], lng_lat_2[1]));
-                map.addOverLay(marker);
-
-                map.getLocation(s_lng, s_lat);
-            }
-        }
-
         function showError(error) {
             switch (error.code) {
                 case error.PERMISSION_DENIED:
@@ -177,23 +159,6 @@
                     alert("An unknown error occurred.");
                     break;
             }
-        }
-
-        // 转换BD09到GCJ02
-        function bd09togcj02(bd_lon, bd_lat) {
-            var x_PI = 3.14159265358979324 * 3000.0 / 180.0;
-            var PI = 3.1415926535897932384626;
-            var a = 6378245.0;
-            var ee = 0.00669342162296594323;
-
-            var x_pi = 3.14159265358979324 * 3000.0 / 180.0;
-            var x = bd_lon - 0.0065;
-            var y = bd_lat - 0.006;
-            var z = Math.sqrt(x * x + y * y) - 0.00002 * Math.sin(y * x_pi);
-            var theta = Math.atan2(y, x) - 0.000003 * Math.cos(x * x_pi);
-            var gg_lng = z * Math.cos(theta);
-            var gg_lat = z * Math.sin(theta);
-            return [gg_lng, gg_lat]
         }
 
         // 驾车搜索

@@ -51,6 +51,7 @@
     <Compile Include="DGroup.cs" />
     <Compile Include="DLocalData.cs" />
     <Compile Include="DLocalDataGCJ.cs" />
+    <Compile Include="DLocalDataWSG.cs" />
     <Compile Include="DSCfunction.cs" />
     <Compile Include="Linq.designer.cs">
       <AutoGen>True</AutoGen>

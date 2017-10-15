@@ -180,9 +180,8 @@ namespace ttxy.BLL
             string points = "";
             for (int i = 0; i < ld.Count; i++)
             {
-                string temp = "{title:\"" + "" + //ld[i].Name + 
+                string temp = "{title:\"" + "" + 
                     "\",content:\"<br/>" + ld[i].Name +
-                    //jxtmp + "<br/>" + 
                     "<p style='font-weight:600;'>" +
                     "<br/><a href=tel:" + ld[i].Tele + ">拨打电话</a></p>" +
                     "<br/>详细地址：" + ld[i].Address +

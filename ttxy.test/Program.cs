@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Collections;
 
@@ -16,11 +14,21 @@ namespace ttxy.test
     {
         static void Main(string[] args)
         {
-            showhtml();
+            transLBS();
+            //showconver();
+            //showhtml();
             //showpoints();
             //readhtml();
             //transLBS();
             //showconvert(116.40093, 39.90313);
+        }
+
+        static void showconver()
+        {
+            double lng = 116.403945;
+            double lat = 39.915122;
+            double[] tdt = LbsTrans.BD09toGCJ02(lng, lat);
+            Console.WriteLine(tdt[0] + ", " + tdt[1]);
         }
 
         static void showhtml()
@@ -28,7 +36,7 @@ namespace ttxy.test
             UseFunction uf = new UseFunction();
             IList<LocalData> ls = uf.get_local("司法行政机关");
             string html = LbsMaker.MakeMapTDT("106.720537, 26.615896", "12", LbsMaker.MakeMapPointsTDT(ls));
-            File.WriteAllText("C:/ttxy/desktop/lbs/map.html", html);
+            File.WriteAllText("C:/ttxy/desktop/lbs/mapTDT.html", html);
             Console.WriteLine(html);
         }
 
@@ -69,7 +77,11 @@ namespace ttxy.test
         /// </summary>
         static void transLBS()
         {
-            LbsTrans.copydata_bd2gcj();
+            LbsTrans lt = new LbsTrans();
+            lt.copydata_bd2gcj();
+            Console.WriteLine("BD09 -> GCJ02   completed");
+            lt.copydata_bd2wgs();
+            Console.WriteLine("BD09 -> WGS84   completed");
         }
 
         static void test4()

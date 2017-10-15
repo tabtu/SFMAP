@@ -22,7 +22,7 @@ public partial class NodeDetail : System.Web.UI.Page
             int id = int.Parse(url.Substring(1));
 
             UseFunction uf = new UseFunction();
-            LocalData ld = uf.get_local(id);
+            LocalData ld = uf.get_local_wgs(id);
             e_lng = ld.Lng;
             e_lat = ld.Lat;
             this.label_title.Text = ld.Name;

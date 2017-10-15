@@ -5,11 +5,11 @@ using ttxy.Model;
 
 namespace ttxy.DAL
 {
-    public class DLocalDataGCJ
+    public class DLocalDataWGS
     {
         public int INSERT(LocalData ld)
         {
-            string sqlstr = "INSERT INTO yxg_localdata_gcj (b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW)VALUES('" +
+            string sqlstr = "INSERT INTO yxg_localdata_wgs (b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW)VALUES('" +
                 ld.Name + "', '" +
                 ld.Address + "', " +
                 ld.Lng + ", " +
@@ -28,7 +28,7 @@ namespace ttxy.DAL
 
         public int UPDATE(LocalData ld)
         {
-            string sqlstr = "UPDATE yxg_localdata_gcj SET b_name='" + ld.Name +
+            string sqlstr = "UPDATE yxg_localdata_wgs SET b_name='" + ld.Name +
                 "', addr='" + ld.Address +
                 "', lng=" + ld.Lng +
                 ", lat=" + ld.Lat +
@@ -48,7 +48,7 @@ namespace ttxy.DAL
 
         public LocalData SELECT_BY_ID(int id)
         {
-            string sqlstr = "SELECT id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_gcj WHERE id=";
+            string sqlstr = "SELECT id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_wgs WHERE id=";
 
             DataSet ds = MySqlHelper.ExecuteQuery(sqlstr + id);
             DataTable dt = ds.Tables[0];
@@ -74,7 +74,7 @@ namespace ttxy.DAL
 
         public IList<LocalData> SELECT_ALL()
         {
-            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_gcj;";
+            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_wgs;";
 
             DataSet ds = MySqlHelper.ExecuteQuery(sqlstr);
             DataTable dt = ds.Tables[0];
@@ -105,7 +105,7 @@ namespace ttxy.DAL
 
         public IList<LocalData> SELECT_BY_ISUSED(short isused)
         {
-            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_gcj WHERE isused=";
+            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_wgs WHERE isused=";
             string sqlend = ";";
 
             DataSet ds = MySqlHelper.ExecuteQuery(sqlstr + isused + sqlend);
@@ -137,7 +137,7 @@ namespace ttxy.DAL
 
         public IList<LocalData> SELECT_BY_GROUP(string group)
         {
-            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_gcj WHERE b_group='";
+            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_wgs WHERE b_group='";
             string sqlend = "';";
 
             DataSet ds = MySqlHelper.ExecuteQuery(sqlstr + group + sqlend);
@@ -169,7 +169,7 @@ namespace ttxy.DAL
 
         public IList<LocalData> SELECT_BY_KW_GROUP(string keyword, string group)
         {
-            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_gcj WHERE b_name like '%";
+            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_wgs WHERE b_name like '%";
             string sqlend = "%' and b_group='" + group + "';";
 
             DataSet ds = MySqlHelper.ExecuteQuery(sqlstr + keyword + sqlend);
@@ -201,7 +201,7 @@ namespace ttxy.DAL
 
         public IList<LocalData> SELECT_BY_KW(string keyword)
         {
-            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_gcj WHERE b_name like '%";
+            string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_wgs WHERE b_name like '%";
             string sqlend = "%';";
 
             DataSet ds = MySqlHelper.ExecuteQuery(sqlstr + keyword + sqlend);
