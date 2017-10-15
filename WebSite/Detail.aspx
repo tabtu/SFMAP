@@ -22,8 +22,11 @@
                 <asp:label ID="label_title" runat="server" Font-Bold="True" Font-Size="Medium"></asp:label>
             </h3>
 		</div>
+
         <div id="navigation_map" style="height:300px; width:100%"></div>
-        <div id="r-result"></div>
+        <div id="resultDiv"></div>
+		<input type="text" id="start" value="" />
+		<input type="text" id="end" value="" />
 
         <table class="table">
             <tr>
@@ -32,13 +35,6 @@
 			<tr>
 				<td id="org_tel">电话:<strong><asp:Literal ID="Literal_tel" runat="server"></asp:Literal></strong><small>(点击直接拔打)</small></td>
 			</tr>
-			 <%--<tr id="lawyerInfo_tr" style="display: table-row;">
-				<td id="lawyerInfo"><dl><dt>顾问律师</dt><dd>姓名:XXX</dd><dd>手机:<a href="tel:12345678901">12345678901</a></dd><dd>所在律所:xxx</dd></dl></td>
-			</tr>--%>
-			<tr>
-				<%--<td id="user_addr">正在定位您的位置</td>--%>
-			</tr>
-			
 			<tr>
 			<td>
 				<div class="row">	<div class="col-xs-4">
@@ -48,9 +44,9 @@
 								公 交 <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a onclick="searchBusRoute(1)">较快捷</a></li>
-								<li><a onclick="searchBusRoute(2)">少换乘</a></li>
-								<li><a onclick="searchBusRoute(4)">少步行</a></li>
+								<li><a href="#" onclick="searchBusRoute(1)">较快捷</a></li>
+								<li><a href="#" onclick="searchBusRoute(2)">少换乘</a></li>
+								<li><a href="#" onclick="searchBusRoute(4)">少步行</a></li>
 							</ul>
 						</div>
 					</div>
@@ -78,110 +74,109 @@
 			</td>
 			</tr>
         </table>
-        <label id="Label_Lng"></label>
-        <label id="Label_Lat"></label>
 	</div>
     <script>
-        var e_lng = "<%=Get_e_Lng()%>";
-        var e_lat = "<%=Get_e_Lat()%>";
-        var s_lng;
-        var s_lat;
-        var s_lnglat;
-		var zoom = 12;
+        document.getElementById("end").value = "<%=Get_e_Lng()%>" + "," + "<%=Get_e_Lat()%>";
 
-		var map, drivingRoute, transitRoute, obj;
+        var zoom = 12;
+        var map, drivingRoute;
         var startLngLat, endLngLat;
 
-        var startIcon = "http://lbs.tianditu.com/images/bus/start.png";	//起点图标
-        var endIcon = "http://lbs.tianditu.com/images/bus/end.png";		//终点图标
+        var startIcon = "http://lbs.tianditu.com/images/bus/start.png";
+        var endIcon = "http://lbs.tianditu.com/images/bus/end.png";
         var map_bus = "http://lbs.tianditu.com/images/bus/map_bus.png";
         var map_metro = "http://lbs.tianditu.com/images/bus/map_metro.png";
 
+        document.getElementById("start").style.display = "none";
+        document.getElementById("end").style.display = "none";
+
         function onLoad() {
-
-            map = new T.Map('navigation_map');
-            map.centerAndZoom(new T.LngLat(e_lng, e_lat), zoom);
-
-            var marker = new T.Marker(new T.LngLat(e_lng, e_lat));
-            map.addOverLay(marker);
-
+            //document.getElementById("start").value = "106.713783,26.581161";
+            //document.getElementById("end").value = "106.681557,26.565083";
+            // GPS
             var lo = new T.Geolocation();
             fn = function (e) {
                 if (this.getStatus() == 0) {
-                    s_lnglat = e.lnglat;
-                    var marker = new T.Marker(s_lnglat);
+                    document.getElementById("start").value = e.lnglat;
+                    var marker = new T.Marker(e.lnglat);
                     map.addOverLay(marker);
-
                 }
                 if (this.getStatus() == 1) {
-                    s_lnglat = e.lnglat;
-                    var marker = new T.Marker(s_lnglat);
+                    document.getElementById("start").value = e.lnglat;
+                    var marker = new T.Marker(e.lnglat);
                     map.addOverLay(marker);
                 }
             }
             lo.getCurrentPosition(fn);
 
-            var configdrive = {
-                policy: 0,	//驾车策略
-                onSearchComplete: searchResult	//检索完成后的回调函数
-            };
+            // MAP SET
+            map = new T.Map("navigation_map");
+            var tmp = document.getElementById("end").value.split(",");
+            endLngLat = new T.LngLat(tmp[0], tmp[1]);
+            map.centerAndZoom(endLngLat, zoom);
+            var marker = new T.Marker(endLngLat);
+            map.addOverLay(marker);
+
+            // DRIVE
+            var configdrive = { policy: 0, onSearchComplete: searchResult };
             drivingRoute = new T.DrivingRoute(map, configdrive);
 
-            var config = {
-                policy: 8,	//公交导航的策略参数
-                onSearchComplete: busSearchResult	//检索完成后的回调函数
-            };
-            transitRoute = new T.TransitRoute(map, config);
+            // BUS
+            var configbus = { policy: 1, onSearchComplete: busSearchResult };
+            transitRoute = new T.TransitRoute(map, configbus);
         }
 
-        function searchBusRoute(policy) {
-            var config = {
-                policy: policy,	//公交导航的策略参数
-                onSearchComplete: busSearchResult	//检索完成后的回调函数
-            };
-            //创建公交搜索对象
-            transitRoute = new T.TransitRoute(map, config);
-            searchBus();
-        }
-
-        function showError(error) {
-            switch (error.code) {
-                case error.PERMISSION_DENIED:
-                    alert("User denied the request for Geolocation.");
-                    break;
-                case error.POSITION_UNAVAILABLE:
-                    alert("Location information is unavailable.");
-                    break;
-                case error.TIMEOUT:
-                    alert("The request to get user location timed out.");
-                    break;
-                case error.UNKNOWN_ERROR:
-                    alert("An unknown error occurred.");
-                    break;
-            }
-        }
-
-        // 驾车搜索
+        // DRIVEROUTE
         function searchDrivingRoute(policy) {
+            document.getElementById("resultDiv").innerHTML = "";
             map.clearOverLays();
-            startLngLat = new T.LngLat(s_lng, s_lat);
-            endLngLat = new T.LngLat(e_lng, e_lat);
+            var startVal = document.getElementById("start").value.split(",");
+            startLngLat = new T.LngLat(startVal[0], startVal[1]);
+            var endVal = document.getElementById("end").value.split(",");
+            endLngLat = new T.LngLat(endVal[0], endVal[1]);
 
-            //设置驾车策略
             drivingRoute.setPolicy(policy);
-            //驾车路线搜索
             drivingRoute.search(startLngLat, endLngLat);
         }
 
+        function searchResult(result) {
+            createStartMarker(result);
+            obj = result;
+            var resultList = document.createElement("div");
+            var routes = result.getNumPlans();
+            for (var i = 0; i < routes; i++) {
+                var plan = result.getPlan(i);
+                var div = document.createElement("div");
+                div.style.cssText = "font-size:12px; cursor:pointer; border:1px solid #999999";
+                var describeStr = "<strong>总时间：" + plan.getDuration() + "秒，总距离：" + Math.round(plan.getDistance()) + "公里</strong>";
+                describeStr += "<div><img src='" + startIcon + "'/>" + document.getElementById("start").value + "</div>";
+                var numRoutes = plan.getNumRoutes();
+                for (var m = 0; m < numRoutes; m++) {
+                    var route = plan.getRoute(m);
+                    describeStr += (m + 1) + ".<span>" + route.getDescription() + "</span><br/>"
+                    var numStepsStr = "";
+                    var numSteps = route.getNumSteps();
+                    for (var n = 0; n < numSteps; n++) {
+                        var step = route.getStep(n);
+                        numStepsStr += "<p>" + (n + 1) + ")<a href='javascript://' onclick='showPosition(\"" + step.getPosition().getLng() + "\",\"" + step.getPosition().getLat() + "\",\"" + step.getDescription() + "\");'>" + step.getDescription() + "</a></p>";
+                    }
+                    describeStr += numStepsStr;
+                }
+                describeStr += "<div><img src='" + endIcon + "'/>" + document.getElementById("end").value + "</div>";
+                div.innerHTML = describeStr;
+                resultList.appendChild(div);
+                createRouteDrive(plan.getPath());
+                map.setViewport(plan.getPath());
+            }
+            document.getElementById("resultDiv").appendChild(resultList);
+        }
+
         function createRouteDrive(lnglats, lineColor) {
-            //创建线对象
             var line = new T.Polyline(lnglats, { color: "#2C64A7", weight: 5, opacity: 0.9 });
-            //向地图上添加线
             map.addOverLay(line);
         }
 
-        //添加起始点
-        function createStartMarkerDrive(result) {
+        function createStartMarker(result) {
             var startMarker = new T.Marker(result.getStart(), {
                 icon: new T.Icon({
                     iconUrl: startIcon,
@@ -200,100 +195,79 @@
             map.addOverLay(endMarker);
         }
 
-        function searchResult(result) {
-            //添加起始点
-            createStartMarkerDrive(result);
-            obj = result;
-            //获取方案个数
-            var routes = result.getNumPlans();
-            for (var i = 0; i < routes; i++) {
-                //获得单条驾车方案结果对象
-                var plan = result.getPlan(i);
-                createRouteDrive(plan.getPath());
-                //显示最佳级别
-                map.setViewport(plan.getPath());
+        function showPosition(lng, lat, des) {
+            if (infoWin) {
+                map.removeOverLay(infoWin);
+                infoWin = null;
             }
+            var lnglat = new T.LngLat(lng, lat);
+            infoWin = new T.InfoWindow(des, new T.Point([0, 0]));
+            infoWin.setLngLat(lnglat);
+            map.addOverLay(infoWin);
         }
 
-
-
-        //公交搜索
-        function searchBus() {
-            //清空地图
+        // BUSROUTE
+        function searchBusRoute(policy) {
             map.clearOverLays();
 
-            startLngLat = new T.LngLat(s_lng, s_lat);
-            endLngLat = new T.LngLat(e_lng, e_lat);
+            var startVal = document.getElementById("start").value.split(",");
+            startLngLat = new T.LngLat(startVal[0], startVal[1]);
+            var endVal = document.getElementById("end").value.split(",");
+            endLngLat = new T.LngLat(endVal[0], endVal[1]);
 
+            transitRoute.setPolicy(policy);
             transitRoute.search(startLngLat, endLngLat);
         }
 
-        //显示公交搜索结果
         function busSearchResult(result) {
-
+            document.getElementById("resultDiv").innerHTML = "";
             if (transitRoute.getStatus() == 0) {
-                //添加起始点
-                createStartMarkerBus();
+                createStartMarker();
                 obj = result;
-                //获取方案个数
+                var resultList = document.createElement("div");
                 var plans = result.getNumPlans();
                 for (var i = 0; i < plans; i++) {
-                    //获得单条公交结果对象
                     var plan = result.getPlan(i);
-
-                    //清空地图
                     map.clearOverLays();
-                    //添加起始点
-                    createStartMarkerBus();
-                    //显示线路
+                    createStartMarker();
                     createSegments(obj.getPlan(i));
-
-                    //在地图上默认显示方案一的线路
                     if (i == 0) {
                         createSegments(result.getPlan(0));
                     }
                 }
-
             }
         }
 
-        //显示公交线路
         function createSegments(plan, planNum) {
             var segmentNum = plan.getNumSegments();
             for (var m = 0; m < segmentNum; m++) {
                 var line = plan.getDetails(m);
                 var segmentLine = line.getSegmentLine()[0];
-                //显示线路
                 createRouteBus(segmentLine.linePoint, line.getSegmentType(), line.getStationStart().lonlat, line.getStationEnd().lonlat);
-                //显示换乘图标
                 createMarker(line.getStationStart().lonlat, line.getStationEnd().lonlat, line.getSegmentType());
             }
         }
 
-        //显示公交换乘图标,lnglatStartStr表示该线路的起始点，lnglatEndStr表示该线路的终点，type表示线路类型
         function createMarker(lnglatStartStr, lnglatEndStr, type) {
             var icon1;
-            if (type == 2)	//公交
+            if (type == 2)
             {
-                //公交标注
                 icon1 = new T.Icon({
                     iconUrl: map_bus,
                     iconSize: new T.Point(23, 23),
                     iconAnchor: new T.Point(12, 12)
                 })
             }
-            else if (type == 3)	//地铁
+            else if (type == 3)
             {
-                //地铁标注
                 icon1 = new T.Icon({
                     iconUrl: map_metro,
                     iconSize: new T.Point(23, 23),
                     iconAnchor: new T.Point(12, 12)
                 })
             }
-            else	//地铁站内换乘
+            else
             {
-                //地铁标注
                 icon1 = new T.Icon({
                     iconUrl: map_metro,
                     iconSize: new T.Point(23, 23),
@@ -301,7 +275,6 @@
                 })
 
             }
-
             if (type != 1) {
                 var lnglatStartArr = lnglatStartStr.split(",");
                 var lnglatStart = new T.LngLat(lnglatStartArr[0], lnglatStartArr[1]);
@@ -314,53 +287,42 @@
             }
         }
 
-        //公交线路，pointsStr表示经纬度字符串，type表示线路类型1，步行；2，公交；3，地铁；4， 地铁站内换乘，lnglat表示显示公交或地铁图标的经纬度
         function createRouteBus(pointsStr, type, lnglatStartStr, lnglatEndStr) {
-
-            //去掉经纬度字符串最后一个分号，并存储在一个数据中。
             var points = pointsStr.substring(0, pointsStr.length - 1).split(";");
-            //存储经纬度的数组
             var lnglatArr = [];
             for (var i = 0; i < points.length; i++) {
                 var lnglat = points[i].split(",");
                 lnglatArr.push(new T.LngLat(lnglat[0], lnglat[1]));
             }
-
-            //步行
             if (type == 1) {
-                var lineColor = "#2E9531";	//线的颜色
-                var lineStyle = "dashed";	//线的样式
+                var lineColor = "#2E9531";
+                var lineStyle = "dashed";
             }
-            else if (type == 2)	//公交
+            else if (type == 2)
             {
-                var lineColor = "#2C64A7";	//线的颜色
-                var lineStyle = "solid";	//线的样式
+                var lineColor = "#2C64A7";
+                var lineStyle = "solid";
             }
-            else if (type == 3)	//地铁
+            else if (type == 3)
             {
-                var lineColor = "#2C64A7";	//线的颜色
-                var lineStyle = "solid";	//线的样式
+                var lineColor = "#2C64A7";
+                var lineStyle = "solid";
             }
-            else	//地铁站内换乘
+            else
             {
-                var lineColor = "#2E9531";	//线的颜色
-                var lineStyle = "dashed";	//线的样式
+                var lineColor = "#2E9531";
+                var lineStyle = "dashed";
             }
-
-            //创建线对象
             var line = new T.Polyline(lnglatArr, {
                 color: lineColor,
                 weight: 4,
                 opacity: 1,
                 lineStyle: lineStyle
             });
-            //向地图上添加线
             map.addOverLay(line);
         }
 
-        //添加起始点
-        function createStartMarkerBus() {
-            //向地图上添加起点
+        function createStartMarker() {
             var icon = new T.Icon({
                 iconUrl: startIcon,
                 iconSize: new T.Point(44, 34),
@@ -368,7 +330,6 @@
             })
             var startMarker = new T.Marker(startLngLat, { icon: icon });
             map.addOverLay(startMarker);
-            //向地图上添加终点
             var icon = new T.Icon({
                 iconUrl: endIcon,
                 iconSize: new T.Point(44, 34),
