@@ -22,12 +22,10 @@
                 <asp:label ID="label_title" runat="server" Font-Bold="True" Font-Size="Medium"></asp:label>
             </h3>
 		</div>
-
         <div id="navigation_map" style="height:300px; width:100%"></div>
         <div id="resultDiv"></div>
 		<input type="text" id="start" value="" />
 		<input type="text" id="end" value="" />
-
         <table class="table">
             <tr>
 				<td id="org_addr">地址:<asp:Label ID="label_addr" runat="server"></asp:Label></td>
@@ -82,8 +80,8 @@
         var map, drivingRoute;
         var startLngLat, endLngLat;
 
-        var startIcon = "http://lbs.tianditu.com/images/bus/start.png";
-        var endIcon = "http://lbs.tianditu.com/images/bus/end.png";
+        var startIcon = "http://lbs.tianditu.com/images/bus/start.png";	//起点图标
+        var endIcon = "http://lbs.tianditu.com/images/bus/end.png";		//终点图标
         var map_bus = "http://lbs.tianditu.com/images/bus/map_bus.png";
         var map_metro = "http://lbs.tianditu.com/images/bus/map_metro.png";
 
@@ -93,7 +91,8 @@
         function onLoad() {
             //document.getElementById("start").value = "106.713783,26.581161";
             //document.getElementById("end").value = "106.681557,26.565083";
-            // GPS
+			
+            // H5 GPS
             var lo = new T.Geolocation();
             fn = function (e) {
                 if (this.getStatus() == 0) {
@@ -108,8 +107,7 @@
                 }
             }
             lo.getCurrentPosition(fn);
-
-            // MAP SET
+            
             map = new T.Map("navigation_map");
             var tmp = document.getElementById("end").value.split(",");
             endLngLat = new T.LngLat(tmp[0], tmp[1]);
@@ -117,16 +115,14 @@
             var marker = new T.Marker(endLngLat);
             map.addOverLay(marker);
 
-            // DRIVE
             var configdrive = { policy: 0, onSearchComplete: searchResult };
             drivingRoute = new T.DrivingRoute(map, configdrive);
 
-            // BUS
             var configbus = { policy: 1, onSearchComplete: busSearchResult };
             transitRoute = new T.TransitRoute(map, configbus);
         }
 
-        // DRIVEROUTE
+        // 驾车导航
         function searchDrivingRoute(policy) {
             document.getElementById("resultDiv").innerHTML = "";
             map.clearOverLays();
@@ -141,6 +137,7 @@
 
         function searchResult(result) {
             createStartMarker(result);
+
             obj = result;
             var resultList = document.createElement("div");
             var routes = result.getNumPlans();
@@ -206,8 +203,9 @@
             map.addOverLay(infoWin);
         }
 
-        // BUSROUTE
+        // 公交搜索
         function searchBusRoute(policy) {
+            document.getElementById("resultDiv").innerHTML = "";
             map.clearOverLays();
 
             var startVal = document.getElementById("start").value.split(",");
@@ -220,7 +218,6 @@
         }
 
         function busSearchResult(result) {
-            document.getElementById("resultDiv").innerHTML = "";
             if (transitRoute.getStatus() == 0) {
                 createStartMarker();
                 obj = result;
