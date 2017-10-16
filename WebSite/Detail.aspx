@@ -24,8 +24,8 @@
 		</div>
         <div id="navigation_map" style="height:300px; width:100%"></div>
         <div id="resultDiv"></div>
-		<input type="text" id="start" value="" />
-		<input type="text" id="end" value="" />
+	<input type="text" id="start" value="" />
+	<input type="text" id="end" value="" />
         <table class="table">
             <tr>
 				<td id="org_addr">地址:<asp:Label ID="label_addr" runat="server"></asp:Label></td>
@@ -96,12 +96,12 @@
             var lo = new T.Geolocation();
             fn = function (e) {
                 if (this.getStatus() == 0) {
-                    document.getElementById("start").value = e.lnglat;
+                    document.getElementById("start").value = e.lnglat.lng + "," + e.lnglat.lat;
                     var marker = new T.Marker(e.lnglat);
                     map.addOverLay(marker);
                 }
                 if (this.getStatus() == 1) {
-                    document.getElementById("start").value = e.lnglat;
+                    document.getElementById("start").value = e.lnglat.lng + "," + e.lnglat.lat;
                     var marker = new T.Marker(e.lnglat);
                     map.addOverLay(marker);
                 }
