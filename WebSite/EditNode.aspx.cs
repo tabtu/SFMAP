@@ -41,14 +41,23 @@ public partial class EditNode : System.Web.UI.Page
     protected void Button_submit_Click(object sender, EventArgs e)
     {
         SysFunction sf = new SysFunction();
-        int result = sf.edit_localdata(this.U_local1.localdata);
-        if (result != 0)
+        LocalData tmp = this.U_local1.localdata;
+        int result = sf.edit_localdata(tmp);
+        double[] gcj = LbsTrans.BD09toGCJ02(tmp.Lng, tmp.Lat);
+        tmp.Lng = gcj[0];
+        tmp.Lat = gcj[1];
+        result += sf.edit_localdata_gcj(tmp);
+        double[] wgs = LbsTrans.GCJ02toWGS84(tmp.Lng, tmp.Lat);
+        tmp.Lng = wgs[0];
+        tmp.Lat = wgs[1];
+        result += sf.edit_localdata_wgs(tmp);
+        if (result == 3)
         {
             Response.Write("<script language='javascript'>alert('修改成功'); location.href='EditNode.aspx'</script>");
         }
         else
         {
-            Response.Write("<script language='javascript'>alert('修改失败');");
+            Response.Write("<script language='javascript'>alert('修改失败: 成功" + result + "条记录');");
         }
     }
 }

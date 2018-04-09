@@ -15,8 +15,8 @@ public partial class MapMain : System.Web.UI.Page
         if (!IsPostBack)
         {
             UseFunction uf = new UseFunction();
-            IList<LocalData> ls = uf.get_local("司法行政机关");
-            Literal_map.Text = LbsMaker.MakeMap("106.720537, 26.615896", "12", LbsMaker.MakeMapPoints(ls));
+            IList<LocalData> ls = uf.get_local_wgs("司法行政机关");
+            Literal_map.Text = LbsMaker.MakeMapTDT("106.720537, 26.615896", "12", LbsMaker.MakeMapPointsTDT(ls));
             keyword.Text = "类别：司法行政机关，可按关键字查询";
 
         }
@@ -29,11 +29,11 @@ public partial class MapMain : System.Web.UI.Page
         if (this.Label_title.Text != "" || this.Label_title.Text != null)
         {
 
-            ls = uf.search_local(this.keyword.Text, this.Label_title.Text);
+            ls = uf.search_local_wgs(this.keyword.Text, this.Label_title.Text);
         }
         else
         {
-            ls = uf.search_local(this.keyword.Text);
+            ls = uf.search_local_wgs(this.keyword.Text);
         }
 
         if (ls == null || ls.Count == 0)
@@ -42,7 +42,7 @@ public partial class MapMain : System.Web.UI.Page
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "16", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "16", LbsMaker.MakeMapPointsTDT(ls));
         }
     }
 
@@ -50,14 +50,14 @@ public partial class MapMain : System.Web.UI.Page
     {
         this.Label_title.Text = "基层法律服务所";
         UseFunction uf = new UseFunction();
-        IList<LocalData> ls = uf.get_local("基层法律服务所");
+        IList<LocalData> ls = uf.get_local_wgs("基层法律服务所");
         if (ls == null || ls.Count == 0)
         {
             Response.Write("<script language='javascript'>alert('未检索到数据');</script>");
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
  keyword.Text = "类别：基层法律服务所，可按关键字查询";
         }
     }
@@ -66,14 +66,14 @@ public partial class MapMain : System.Web.UI.Page
     {
         this.Label_title.Text = "司法行政机关";
         UseFunction uf = new UseFunction();
-        IList<LocalData> ls = uf.get_local("司法行政机关");
+        IList<LocalData> ls = uf.get_local_wgs("司法行政机关");
         if (ls == null || ls.Count == 0)
         {
             Response.Write("<script language='javascript'>alert('未检索到数据');</script>");
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
        keyword.Text = "类别：司法行政机关，可按关键字查询";
 
         }
@@ -83,14 +83,14 @@ public partial class MapMain : System.Web.UI.Page
     {
         this.Label_title.Text = "法律援助中心";
         UseFunction uf = new UseFunction();
-        IList<LocalData> ls = uf.get_local("法律援助中心");
+        IList<LocalData> ls = uf.get_local_wgs("法律援助中心");
         if (ls == null || ls.Count == 0)
         {
             Response.Write("<script language='javascript'>alert('未检索到数据');</script>");
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
 keyword.Text = "类别：法律援助中心，可按关键字查询";
         }
     }
@@ -99,14 +99,14 @@ keyword.Text = "类别：法律援助中心，可按关键字查询";
     {
         this.Label_title.Text = "司法鉴定机构";
         UseFunction uf = new UseFunction();
-        IList<LocalData> ls = uf.get_local("司法鉴定机构");
+        IList<LocalData> ls = uf.get_local_wgs("司法鉴定机构");
         if (ls == null || ls.Count == 0)
         {
             Response.Write("<script language='javascript'>alert('未检索到数据');</script>");
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
 keyword.Text = "类别：司法鉴定机构，可按关键字查询";
         }
     }
@@ -115,14 +115,14 @@ keyword.Text = "类别：司法鉴定机构，可按关键字查询";
     {
         this.Label_title.Text = "律师事务所";
         UseFunction uf = new UseFunction();
-        IList<LocalData> ls = uf.get_local("律师事务所");
+        IList<LocalData> ls = uf.get_local_wgs("律师事务所");
         if (ls == null || ls.Count == 0)
         {
             Response.Write("<script language='javascript'>alert('未检索到数据');</script>");
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
 keyword.Text = "类别：律师事务所，可按关键字查询";
         }
     }
@@ -131,14 +131,14 @@ keyword.Text = "类别：律师事务所，可按关键字查询";
     {
         this.Label_title.Text = "公证处";
         UseFunction uf = new UseFunction();
-        IList<LocalData> ls = uf.get_local("公证处");
+        IList<LocalData> ls = uf.get_local_wgs("公证处");
         if (ls == null || ls.Count == 0)
         {
             Response.Write("<script language='javascript'>alert('未检索到数据');</script>");
         }
         else
         {
-            this.Literal_map.Text = LbsMaker.MakeMap(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPoints(ls));
+            this.Literal_map.Text = LbsMaker.MakeMapTDT(ls[0].Lng + ", " + ls[0].Lat, "14", LbsMaker.MakeMapPointsTDT(ls));
 keyword.Text = "类别：公证机构，可按关键字查询";
         }
     }

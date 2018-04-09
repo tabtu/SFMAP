@@ -16,7 +16,7 @@
         //public const string mainurl = "http://localhost:11281/";
 
         // 发布点
-        public const string upload = @"E:\published\map\upload\map\";
-        public const string mainurl = "http://fmap.gzyxgkj.com/";
+        public const string upload = @"C:\published\map\upload\map\";
+        public const string mainurl = "http://sfmap.gzyxgkj.com:10001/";
     }
 }

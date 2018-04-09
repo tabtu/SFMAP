@@ -19,7 +19,6 @@ namespace ttxy.test
             //showhtml();
             //showpoints();
             //readhtml();
-            //transLBS();
             //showconvert(116.40093, 39.90313);
         }
 

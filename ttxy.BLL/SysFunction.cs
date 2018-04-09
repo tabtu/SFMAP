@@ -18,6 +18,30 @@ namespace ttxy.BLL
             return dld.UPDATE(ld);
         }
 
+        public int add_localdata_gcj(LocalData ld)
+        {
+            DLocalDataGCJ dldgcj = new DLocalDataGCJ();
+            return dldgcj.INSERT(ld);
+        }
+
+        public int edit_localdata_gcj(LocalData ld)
+        {
+            DLocalDataGCJ dldgcj = new DLocalDataGCJ();
+            return dldgcj.UPDATE(ld);
+        }
+
+        public int add_localdata_wgs(LocalData ld)
+        {
+            DLocalDataWGS dldwgs = new DLocalDataWGS();
+            return dldwgs.INSERT(ld);
+        }
+
+        public int edit_localdata_wgs(LocalData ld)
+        {
+            DLocalDataWGS dldwgs = new DLocalDataWGS();
+            return dldwgs.UPDATE(ld);
+        }
+
         public IList<BGroup> get_groups()
         {
             DGroup dg = new DGroup();
