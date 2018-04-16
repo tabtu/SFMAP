@@ -119,4 +119,3 @@ C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\bin\Release\ttxy.Model.dll
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\bin\Release\ttxy.Model.pdb
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\obj\Release\ttxy.Model.dll
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\obj\Release\ttxy.Model.pdb
-C:\ttxy\workspace\net\SFMAP\src\ttxy.Model\obj\Release\ttxy.Model.csprojResolveAssemblyReference.cache

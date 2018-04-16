@@ -14,12 +14,70 @@ namespace ttxy.test
     {
         static void Main(string[] args)
         {
-            transLBS();
+            //trimAddr();
+            //transLBS();
             //showconver();
             //showhtml();
             //showpoints();
             //readhtml();
             //showconvert(116.40093, 39.90313);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        static void trimAddr()
+        {
+            //DLocalDataGCJ dldgcj = new DLocalDataGCJ();
+            //LocalData tp = dldgcj.SELECT_BY_ID(266);
+            //if (tp.Address.Contains("\r\n"))
+            //{
+            //    Console.WriteLine("true");
+            //}
+            //if (tp.Address.Contains("\""))
+            //{
+            //    Console.WriteLine("true//////");
+            //}
+            //Console.WriteLine(tp.Address.Replace("\r\n", "").Replace("\"", ""));
+
+            DLocalData dld = new DLocalData();
+            IList<LocalData> ld = dld.SELECT_ALL();
+            for (int i = 0; i < ld.Count; i++)
+            {
+                if (ld[i].Address.Contains("\r\n"))
+                {
+                    Console.Write("localdata: " + ld[i].ID + ";");
+                    ld[i].Address = ld[i].Address.Replace("\r\n", "").Replace("\"", "");
+                    dld.UPDATE(ld[i]);
+                }
+            }
+            Console.WriteLine();
+
+            DLocalDataGCJ dldgcj = new DLocalDataGCJ();
+            IList<LocalData> ldgcj = dldgcj.SELECT_ALL();
+            for (int i = 0; i < ldgcj.Count; i++)
+            {
+                if (ldgcj[i].Address.Contains("\r\n"))
+                {
+                    Console.Write("localdata_gcj: " + ldgcj[i].ID + ";");
+                    ldgcj[i].Address = ldgcj[i].Address.Replace("\r\n", "").Replace("\"", "");
+                    dldgcj.UPDATE(ldgcj[i]);
+                }
+            }
+            Console.WriteLine();
+
+            DLocalDataWGS dldwgs = new DLocalDataWGS();
+            IList<LocalData> ldwgs = dldwgs.SELECT_ALL();
+            for (int i = 0; i < ldwgs.Count; i++)
+            {
+                if (ldwgs[i].Address.Contains("\r\n"))
+                {
+                    Console.Write("localdata_wgs: " + ldwgs[i].ID + ";");
+                    ldwgs[i].Address = ldwgs[i].Address.Replace("\r\n", "").Replace("\"", "");
+                    dldwgs.UPDATE(ldwgs[i]);
+                }
+            }
+            Console.WriteLine();
         }
 
         static void showconver()
