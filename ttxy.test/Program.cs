@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using System.Collections;
 
 using ttxy.BLL;
@@ -14,6 +15,9 @@ namespace ttxy.test
     {
         static void Main(string[] args)
         {
+            checkidqueue();
+            //synFromWGS_BaseonAddr08222018();
+            //changeData08222018();
             //trimAddr();
             //transLBS();
             //showconver();
@@ -21,6 +25,116 @@ namespace ttxy.test
             //showpoints();
             //readhtml();
             //showconvert(116.40093, 39.90313);
+        }
+
+
+        static void checkidqueue()
+        {
+            DLocalDataWGS wgs = new DLocalDataWGS();
+            IList<LocalData> ldwgs = wgs.SELECT_ALL();
+
+            for(int i = 0; i < ldwgs.Count - 1; i++)
+            {
+                if (ldwgs[i].ID + 1 != ldwgs[i+1].ID)
+                {
+                    Console.WriteLine(ldwgs[i].ID);
+                }
+            }
+        }
+
+        static void synFromWGS_BaseonAddr08222018()
+        {
+            DLocalData dld = new DLocalData();
+            DLocalDataGCJ gcj = new DLocalDataGCJ();
+            DLocalDataWGS wgs = new DLocalDataWGS();
+            IList<LocalData> ldwgs = wgs.SELECT_ALL();
+
+            int countName = 0;
+            int countTele = 0;
+            foreach(LocalData ele in ldwgs)
+            {
+                LocalData edd = dld.SELECT_BY_ADDR(ele.Address);
+                LocalData edg = gcj.SELECT_BY_ADDR(ele.Address);
+                if (ele.Name != edd.Name)
+                {
+                    edd.Name = ele.Name;
+                    edg.Name = ele.Name;
+                    dld.UPDATE(edd);
+                    gcj.UPDATE(edg);
+                    countName++;
+                }
+                if (ele.Tele != edd.Tele)
+                {
+                    edd.Tele = ele.Tele;
+                    edg.Tele = ele.Tele;
+                    dld.UPDATE(edd);
+                    gcj.UPDATE(edg);
+                    countTele++;
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("Name changes: " + countName);
+            Console.WriteLine("Telenum changes: " + countTele);
+        }
+
+        static void changeData08222018()
+        {
+            StreamReader sr = new StreamReader("C://ttxy/download/script.txt", Encoding.UTF8);
+            String line = sr.ReadToEnd();
+            IList<LocalData> upd = new List<LocalData>();
+            if (line != null)
+            {
+                String[] list = line.Split(';');
+                foreach (String element in list)
+                {
+                    String[] s = element.Split('#');
+                    if (s[0] == "")
+                    {
+                        Console.WriteLine(element);
+                    }
+                    else
+                    {
+                        LocalData tmp = new LocalData();
+                        tmp.ID = int.Parse(s[0]);
+                        tmp.Name = s[1];
+                        tmp.Address = s[2];
+                        tmp.Tele = s[8];
+                        upd.Add(tmp);
+                    }
+                }
+                Console.WriteLine(upd.Count);
+
+                DLocalDataWGS dldw = new DLocalDataWGS();
+                int countName = 0;
+                int countTele = 0;
+                foreach(LocalData eld in upd)
+                {
+                    if (eld.ID != 0)
+                    {
+                        LocalData stmp = dldw.SELECT_BY_ID(eld.ID);
+                        if (eld.Name != stmp.Name)
+                        {
+                            stmp.Name = eld.Name;
+                            dldw.UPDATE(stmp);
+                            countName++;
+                        }
+                        if (eld.Tele != stmp.Tele)
+                        {
+                            stmp.Tele = eld.Tele;
+                            dldw.UPDATE(stmp);
+                            countTele++;
+                        }
+                    }
+                }
+                Console.WriteLine();
+                Console.WriteLine("Name Change: " + countName);
+                Console.WriteLine("Telenum Change: " + countTele);
+
+                //Console.WriteLine(line.ToString());
+                //Console.WriteLine(list[0]);
+                //Console.WriteLine(list[1]);
+                //Console.WriteLine(list.Length);
+            }
         }
 
         /// <summary>

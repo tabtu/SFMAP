@@ -18,6 +18,6 @@
         // 发布点
         public const string upload = @"C:\published\map\upload\map\";
         //public const string mainurl = "http://sfmap.gzyxgkj.com:10001/";
-        public const string mainurl = "http://sfmap.tabtu.top:10001/";
+        public const string mainurl = "http://sfmap.otoforu.com:10001/";
     }
 }

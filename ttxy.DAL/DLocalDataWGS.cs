@@ -72,6 +72,32 @@ namespace ttxy.DAL
             return temp;
         }
 
+        public LocalData SELECT_BY_ADDR(string addr)
+        {
+            string sqlstr = "SELECT id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_wgs WHERE addr='";
+
+            DataSet ds = MySqlHelper.ExecuteQuery(sqlstr + addr + "'");
+            DataTable dt = ds.Tables[0];
+
+            LocalData temp = new LocalData();
+
+            temp.ID = int.Parse(dt.Rows[0][0].ToString());
+            temp.Name = dt.Rows[0][1].ToString();
+            temp.Address = dt.Rows[0][2].ToString();
+            temp.Lng = double.Parse(dt.Rows[0][3].ToString());
+            temp.Lat = double.Parse(dt.Rows[0][4].ToString());
+            temp.Key_W = dt.Rows[0][5].ToString();
+            temp.Group = dt.Rows[0][6].ToString();
+            temp.Type = dt.Rows[0][7].ToString();
+            temp.Tele = dt.Rows[0][8].ToString();
+            temp.Pic = dt.Rows[0][9].ToString();
+            temp.Des = dt.Rows[0][10].ToString();
+            temp.Isused = short.Parse(dt.Rows[0][11].ToString());
+            temp.OCW = dt.Rows[0][12].ToString();
+
+            return temp;
+        }
+
         public IList<LocalData> SELECT_ALL()
         {
             string sqlstr = "select id, b_name, addr, lng, lat, key_w, b_group, b_type, tele, pic, des, isused, OCW FROM yxg_localdata_wgs;";
