@@ -17,7 +17,10 @@
 
         // 发布点
         public const string upload = @"C:\published\map\upload\map\";
-        //public const string mainurl = "http://sfmap.gzyxgkj.com:10001/";
-        public const string mainurl = "http://sfmap.otoforu.com:10001/";
+        //public const string mainurl = "http://sfmap.gzyxgkj.com:10010/";
+        public const string mainurl = "http://sfmap.otoforu.com:10010/";
+
+        public const string key_TDT = "d4cb392c74129e0daf11d3f84d812f14";
+        public const string key_BD = "7jX0fH8U0LAyWrd6Lp4HQXYalxfXvZvk";
     }
 }

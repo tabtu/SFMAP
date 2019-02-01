@@ -27,3 +27,4 @@ C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\bin\Release\ttxy.Security.dll
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\bin\Release\ttxy.Security.pdb
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\obj\Release\ttxy.Security.dll
 C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\obj\Release\ttxy.Security.pdb
+C:\ttxy\workspace\net\SFMAP\src\ttxy.Security\obj\Release\ttxy.Security.csprojResolveAssemblyReference.cache
